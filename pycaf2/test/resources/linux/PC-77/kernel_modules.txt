@@ -1,0 +1,136 @@
+Module                  Size  Used by
+tcp_diag               12512  0 
+inet_diag              17340  1 tcp_diag
+binfmt_misc            16949  1 
+nls_utf8               12456  1 
+nls_cp437              16553  1 
+vfat                   17135  1 
+fat                    61986  1 vfat
+ipt_MASQUERADE         12594  1 
+xfrm_user              34935  1 
+xfrm_algo              13031  1 xfrm_user
+iptable_nat            12646  1 
+nf_conntrack_ipv4      18448  2 
+nf_defrag_ipv4         12483  1 nf_conntrack_ipv4
+nf_nat_ipv4            12912  1 iptable_nat
+xt_addrtype            12557  2 
+iptable_filter         12536  1 
+ip_tables              21711  2 iptable_filter,iptable_nat
+xt_conntrack           12681  1 
+x_tables               27399  5 ip_tables,ipt_MASQUERADE,xt_conntrack,iptable_filter,xt_addrtype
+nf_nat                 18241  3 ipt_MASQUERADE,nf_nat_ipv4,iptable_nat
+nf_conntrack           87424  6 ipt_MASQUERADE,nf_nat,nf_nat_ipv4,xt_conntrack,iptable_nat,nf_conntrack_ipv4
+bridge                106111  0 
+stp                    12437  1 bridge
+llc                    12745  2 stp,bridge
+aufs                  199570  0 
+nfsd                  262938  2 
+auth_rpcgss            51209  1 nfsd
+oid_registry           12419  1 auth_rpcgss
+nfs_acl                12511  1 nfsd
+nfs                   192232  0 
+lockd                  83389  2 nfs,nfsd
+fscache                45542  1 nfs
+sunrpc                237364  6 nfs,nfsd,auth_rpcgss,lockd,nfs_acl
+hid_generic            12393  0 
+usbhid                 44460  0 
+hid                   102264  2 hid_generic,usbhid
+ums_realtek            17223  0 
+usb_storage            56215  2 ums_realtek
+x86_pkg_temp_thermal    12951  0 
+arc4                   12536  2 
+intel_powerclamp       17159  0 
+ath3k                  16781  0 
+nouveau              1122508  3 
+ath9k                  90245  0 
+ath9k_common           21746  1 ath9k
+intel_rapl             17356  0 
+mxm_wmi                12515  1 nouveau
+btusb                  29721  0 
+coretemp               12820  0 
+wmi                    17339  2 mxm_wmi,nouveau
+ath9k_hw              391172  2 ath9k_common,ath9k
+kvm_intel             139156  0 
+kvm                   392897  1 kvm_intel
+bluetooth             374429  2 ath3k,btusb
+crc32_pclmul           12915  0 
+snd_hda_codec_realtek    67168  1 
+iTCO_wdt               12831  0 
+iTCO_vendor_support    12649  1 iTCO_wdt
+evdev                  17445  18 
+snd_hda_codec_generic    63181  1 snd_hda_codec_realtek
+ttm                    77862  1 nouveau
+snd_hda_codec_hdmi     45118  1 
+drm_kms_helper         49210  1 nouveau
+drm                   249998  6 ttm,drm_kms_helper,nouveau
+aesni_intel           151423  0 
+aes_x86_64             16719  1 aesni_intel
+lrw                    12757  1 aesni_intel
+gf128mul               12970  1 lrw
+ath                    26067  3 ath9k_common,ath9k,ath9k_hw
+6lowpan_iphc           16588  1 bluetooth
+mac80211              482315  1 ath9k
+cfg80211              413730  4 ath,ath9k_common,ath9k,mac80211
+snd_hda_intel          26407  5 
+snd_hda_controller     26646  1 snd_hda_intel
+dcdbas                 13313  0 
+snd_hda_codec         104500  5 snd_hda_codec_realtek,snd_hda_codec_hdmi,snd_hda_codec_generic,snd_hda_intel,snd_hda_controller
+i2c_algo_bit           12751  1 nouveau
+glue_helper            12695  1 aesni_intel
+ablk_helper            12572  1 aesni_intel
+cryptd                 14516  2 aesni_intel,ablk_helper
+snd_hwdep              13148  1 snd_hda_codec
+snd_pcm                88662  4 snd_hda_codec_hdmi,snd_hda_codec,snd_hda_intel,snd_hda_controller
+snd_timer              26720  1 snd_pcm
+snd                    65338  18 snd_hda_codec_realtek,snd_hwdep,snd_timer,snd_hda_codec_hdmi,snd_pcm,snd_hda_codec_generic,snd_hda_codec,snd_hda_intel
+i2c_i801               16965  0 
+i2c_core               46012  5 drm,i2c_i801,drm_kms_helper,i2c_algo_bit,nouveau
+tpm_tis                17231  0 
+pcspkr                 12595  0 
+tpm                    31511  1 tpm_tis
+video                  18096  1 nouveau
+battery                13356  0 
+rfkill                 18867  3 cfg80211,bluetooth
+mei_me                 17941  0 
+soundcore              13026  2 snd,snd_hda_codec
+lpc_ich                20768  0 
+mei                    74977  1 mei_me
+mfd_core               12601  1 lpc_ich
+shpchp                 31121  0 
+serio_raw              12849  0 
+button                 12944  1 nouveau
+processor              28221  0 
+fuse                   83350  1 
+parport_pc             26300  0 
+ppdev                  16782  0 
+lp                     17074  0 
+parport                35749  3 lp,ppdev,parport_pc
+autofs4                35529  2 
+ext4                  477894  1 
+crc16                  12343  2 ext4,bluetooth
+mbcache                17171  1 ext4
+jbd2                   82514  1 ext4
+sg                     29973  0 
+sd_mod                 44356  5 
+crc_t10dif             12431  1 sd_mod
+sr_mod                 21903  0 
+cdrom                  47424  1 sr_mod
+crct10dif_generic      12581  0 
+ehci_pci               12512  0 
+xhci_hcd              152977  0 
+ehci_hcd               69837  1 ehci_pci
+crct10dif_pclmul       13387  1 
+ahci                   33334  2 
+crct10dif_common       12356  3 crct10dif_pclmul,crct10dif_generic,crc_t10dif
+libahci                27158  1 ahci
+crc32c_intel           21809  0 
+libata                177508  2 ahci,libahci
+psmouse                99249  0 
+scsi_mod              191405  5 sg,usb_storage,libata,sd_mod,sr_mod
+r8169                  68262  0 
+mii                    12675  1 r8169
+usbcore               195468  9 ath3k,btusb,ums_realtek,usb_storage,ehci_hcd,ehci_pci,usbhid,xhci_hcd
+usb_common             12440  1 usbcore
+fan                    12681  0 
+thermal                17559  0 
+thermal_sys            27642  6 fan,video,intel_powerclamp,thermal,processor,x86_pkg_temp_thermal

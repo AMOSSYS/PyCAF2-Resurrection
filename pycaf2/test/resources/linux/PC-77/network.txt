@@ -1,0 +1,33 @@
+docker0   Link encap:Ethernet  HWaddr 02:42:9c:ca:9f:35  
+          inet adr:172.17.0.1  Bcast:0.0.0.0  Masque:255.255.0.0
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 lg file transmission:0 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+
+eth0      Link encap:Ethernet  HWaddr b0:83:fe:78:56:42  
+          inet adr:192.168.200.198  Bcast:192.168.200.255  Masque:255.255.255.0
+          adr inet6: fe80::b283:feff:fe78:5642/64 Scope:Lien
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:178664 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:1574 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 lg file transmission:1000 
+          RX bytes:15359451 (14.6 MiB)  TX bytes:280427 (273.8 KiB)
+
+lo        Link encap:Boucle locale  
+          inet adr:127.0.0.1  Masque:255.0.0.0
+          adr inet6: ::1/128 Scope:Hôte
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:2574573 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:2574573 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 lg file transmission:0 
+          RX bytes:138304846 (131.8 MiB)  TX bytes:138304846 (131.8 MiB)
+
+wlan0     Link encap:Ethernet  HWaddr 2c:33:7a:79:b5:6b  
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 lg file transmission:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+

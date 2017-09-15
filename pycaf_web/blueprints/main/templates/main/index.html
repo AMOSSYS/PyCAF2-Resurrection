@@ -1,0 +1,34 @@
+
+{%- extends "base.html" %}
+
+{% block content %}
+<script>
+function notImplemented(){
+  alert('Not implemented yet.')
+}
+</script>
+  <div class="container">
+    <div class="jumbotron" align="center">
+      <h1>Welcome to PyCAF2-web</h1>
+    </div>
+    <div align="center">
+      <a class="btn btn-lg btn-default" role="button" href="{{ url_for('servers.list_servers') }}">
+        Browse imported servers
+      </a>
+      <p/>
+      <p>
+        <a class="btn btn-lg btn-default" role="button" href="{{ url_for('main.import_server') }}">
+          Import a pickled server
+        </a>
+      </p>
+      <p/>
+      <p>
+        <a class="btn btn-lg btn-default" role="button" href="{{ url_for('main.run_pycaf') }}">
+          Launch PyCAF2 on server extract
+        </a>
+      </p>
+
+    </div>
+
+   </div>
+{%- endblock %}

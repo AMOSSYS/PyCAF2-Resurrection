@@ -1,0 +1,25 @@
+TARGETS = rsyslog minissdpd killprocs motd bootlogs dbus exim4 gdomap cgroupfs-mount atd speech-dispatcher acpid single anacron cron ssh rsync network-manager docker avahi-daemon lightdm bluetooth cups-browsed saned cups plymouth rc.local rmnologin
+INTERACTIVE =
+dbus: rsyslog
+exim4: rsyslog
+gdomap: rsyslog
+cgroupfs-mount: rsyslog
+atd: rsyslog
+speech-dispatcher: rsyslog
+acpid: rsyslog
+single: killprocs motd bootlogs
+anacron: rsyslog
+cron: rsyslog
+ssh: rsyslog
+rsync: rsyslog
+network-manager: dbus rsyslog
+docker: rsyslog cgroupfs-mount
+avahi-daemon: dbus rsyslog
+lightdm: acpid dbus
+bluetooth: rsyslog dbus
+cups-browsed: rsyslog
+saned: rsyslog dbus
+cups: rsyslog
+plymouth: cups-browsed rsyslog saned dbus exim4 gdomap network-manager docker cgroupfs-mount atd speech-dispatcher minissdpd avahi-daemon lightdm acpid bluetooth motd bootlogs cups anacron cron ssh rsync
+rc.local: cups-browsed rsyslog saned dbus exim4 gdomap network-manager docker cgroupfs-mount atd speech-dispatcher minissdpd avahi-daemon lightdm acpid bluetooth motd bootlogs cups anacron cron ssh rsync
+rmnologin: cups-browsed rsyslog saned dbus exim4 gdomap network-manager docker cgroupfs-mount atd speech-dispatcher minissdpd avahi-daemon lightdm acpid bluetooth motd bootlogs cups anacron cron ssh rsync

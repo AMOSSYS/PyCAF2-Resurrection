@@ -1,0 +1,17 @@
+28e5f4bcc6d9cf3addd8bf7d4fffcb5b  find.txt
+a05fc0bb2ee2eacaef1a17774dad638f  netstat.txt
+e86b9bc3d02d9d82e07b3e4bddd3edf2  pkg_list.txt
+66e5ca6dd0052cb3572e21a51eb1667d  ps.txt
+249683567087eed54e329886a158041e  ps-format.txt
+dbfe6d3f0ae4537ac7719f23bb2e8dea  mount.txt
+0a66edb0dc742034af094031986b79d0  uname.txt
+3a0ddacace05578541367c2025c92f67  kernel_config.txt
+de38697b787ff3339fbddd0cbba140bb  passwd.txt
+60e2769149f907cf38580a2d10c6be22  group.txt
+846165aa9393ed63347cda1e09924ee5  network.txt
+4957669c7604ad8f4a1f48d1d9f6cfd1  routes.txt
+6d1a70ced9e6c29bede1c0436986f494  iptables.txt
+9e033038a6da47315b1c4831fe483ba2  kernel_modules.txt
+f8ee51bb1439658e444ae5adf74bad0e  lspci.txt
+28d296b771affd7d519cd91b26f853e2  cpuinfo.txt
+1e85d27c4639f6730bb7624094413c74  version_script.txt

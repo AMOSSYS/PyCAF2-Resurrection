@@ -1,0 +1,14 @@
+TARGETS = unattended-upgrades minissdpd exim4 gdomap atd speech-dispatcher network-manager docker avahi-daemon lightdm bluetooth cups-browsed saned cups plymouth urandom alsa-utils cgroupfs-mount sendsigs rsyslog umountnfs.sh nfs-common rpcbind hwclock.sh networking umountfs umountroot halt reboot
+avahi-daemon: cups-browsed saned
+cgroupfs-mount: docker
+sendsigs: cups-browsed saned exim4 gdomap network-manager docker atd speech-dispatcher cgroupfs-mount alsa-utils minissdpd avahi-daemon lightdm unattended-upgrades plymouth bluetooth
+rsyslog: cups-browsed saned exim4 gdomap network-manager docker atd speech-dispatcher cgroupfs-mount sendsigs avahi-daemon bluetooth cups
+umountnfs.sh: sendsigs cups-browsed saned exim4 gdomap network-manager docker atd speech-dispatcher cgroupfs-mount alsa-utils rsyslog minissdpd avahi-daemon lightdm unattended-upgrades plymouth bluetooth
+nfs-common: umountnfs.sh
+rpcbind: umountnfs.sh
+hwclock.sh: nfs-common cups-browsed atd rsyslog minissdpd
+networking: cups-browsed exim4 minissdpd umountnfs.sh rpcbind
+umountfs: cups-browsed saned hwclock.sh networking exim4 gdomap network-manager docker atd speech-dispatcher cgroupfs-mount alsa-utils minissdpd avahi-daemon lightdm unattended-upgrades umountnfs.sh plymouth rpcbind urandom bluetooth
+umountroot: umountfs
+halt: umountroot
+reboot: umountroot

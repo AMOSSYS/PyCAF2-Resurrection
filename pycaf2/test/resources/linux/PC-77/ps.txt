@@ -1,0 +1,175 @@
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         2  0.0  0.0      0     0 ?        S    févr.08   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        S    févr.08   0:10  \_ [ksoftirqd/0]
+root         5  0.0  0.0      0     0 ?        S<   févr.08   0:00  \_ [kworker/0:0H]
+root         7  0.0  0.0      0     0 ?        S    févr.08   0:33  \_ [rcu_sched]
+root         8  0.0  0.0      0     0 ?        S    févr.08   0:00  \_ [rcu_bh]
+root         9  0.0  0.0      0     0 ?        S    févr.08   0:00  \_ [migration/0]
+root        10  0.0  0.0      0     0 ?        S    févr.08   0:00  \_ [watchdog/0]
+root        11  0.0  0.0      0     0 ?        S    févr.08   0:00  \_ [watchdog/1]
+root        12  0.0  0.0      0     0 ?        S    févr.08   0:00  \_ [migration/1]
+root        13  0.0  0.0      0     0 ?        S    févr.08   0:06  \_ [ksoftirqd/1]
+root        15  0.0  0.0      0     0 ?        S<   févr.08   0:00  \_ [kworker/1:0H]
+root        16  0.0  0.0      0     0 ?        S    févr.08   0:00  \_ [watchdog/2]
+root        17  0.0  0.0      0     0 ?        S    févr.08   0:00  \_ [migration/2]
+root        18  0.0  0.0      0     0 ?        S    févr.08   0:05  \_ [ksoftirqd/2]
+root        20  0.0  0.0      0     0 ?        S<   févr.08   0:00  \_ [kworker/2:0H]
+root        21  0.0  0.0      0     0 ?        S    févr.08   0:00  \_ [watchdog/3]
+root        22  0.0  0.0      0     0 ?        S    févr.08   0:00  \_ [migration/3]
+root        23  0.0  0.0      0     0 ?        S    févr.08   0:03  \_ [ksoftirqd/3]
+root        25  0.0  0.0      0     0 ?        S<   févr.08   0:00  \_ [kworker/3:0H]
+root        26  0.0  0.0      0     0 ?        S<   févr.08   0:00  \_ [khelper]
+root        27  0.0  0.0      0     0 ?        S    févr.08   0:00  \_ [kdevtmpfs]
+root        28  0.0  0.0      0     0 ?        S<   févr.08   0:00  \_ [netns]
+root        29  0.0  0.0      0     0 ?        S    févr.08   0:00  \_ [khungtaskd]
+root        30  0.0  0.0      0     0 ?        S<   févr.08   0:00  \_ [writeback]
+root        31  0.0  0.0      0     0 ?        SN   févr.08   0:00  \_ [ksmd]
+root        32  0.0  0.0      0     0 ?        SN   févr.08   0:00  \_ [khugepaged]
+root        33  0.0  0.0      0     0 ?        S<   févr.08   0:00  \_ [crypto]
+root        34  0.0  0.0      0     0 ?        S<   févr.08   0:00  \_ [kintegrityd]
+root        35  0.0  0.0      0     0 ?        S<   févr.08   0:00  \_ [bioset]
+root        36  0.0  0.0      0     0 ?        S<   févr.08   0:00  \_ [kblockd]
+root        41  0.0  0.0      0     0 ?        S    févr.08   0:00  \_ [kswapd0]
+root        42  0.0  0.0      0     0 ?        S<   févr.08   0:00  \_ [vmstat]
+root        43  0.0  0.0      0     0 ?        S    févr.08   0:00  \_ [fsnotify_mark]
+root        49  0.0  0.0      0     0 ?        S<   févr.08   0:00  \_ [kthrotld]
+root        50  0.0  0.0      0     0 ?        S<   févr.08   0:00  \_ [ipv6_addrconf]
+root        52  0.0  0.0      0     0 ?        S<   févr.08   0:00  \_ [deferwq]
+root        92  0.0  0.0      0     0 ?        S<   févr.08   0:00  \_ [acpi_thermal_pm]
+root        93  0.0  0.0      0     0 ?        S    févr.08   0:12  \_ [khubd]
+root        94  0.0  0.0      0     0 ?        S<   févr.08   0:00  \_ [kpsmoused]
+root        95  0.0  0.0      0     0 ?        S<   févr.08   0:00  \_ [ata_sff]
+root        98  0.0  0.0      0     0 ?        S    févr.08   0:00  \_ [scsi_eh_0]
+root        99  0.0  0.0      0     0 ?        S<   févr.08   0:00  \_ [scsi_tmf_0]
+root       100  0.0  0.0      0     0 ?        S    févr.08   0:00  \_ [scsi_eh_1]
+root       101  0.0  0.0      0     0 ?        S<   févr.08   0:00  \_ [scsi_tmf_1]
+root       102  0.0  0.0      0     0 ?        S    févr.08   0:00  \_ [scsi_eh_2]
+root       103  0.0  0.0      0     0 ?        S<   févr.08   0:00  \_ [scsi_tmf_2]
+root       104  0.0  0.0      0     0 ?        S    févr.08   0:00  \_ [scsi_eh_3]
+root       105  0.0  0.0      0     0 ?        S<   févr.08   0:00  \_ [scsi_tmf_3]
+root       106  0.0  0.0      0     0 ?        S    févr.08   0:00  \_ [scsi_eh_4]
+root       107  0.0  0.0      0     0 ?        S<   févr.08   0:00  \_ [scsi_tmf_4]
+root       118  0.0  0.0      0     0 ?        S<   févr.08   0:00  \_ [kworker/0:1H]
+root       119  0.0  0.0      0     0 ?        S<   févr.08   0:00  \_ [kworker/1:1H]
+root       120  0.0  0.0      0     0 ?        S<   févr.08   0:00  \_ [kworker/2:1H]
+root       142  0.0  0.0      0     0 ?        S<   févr.08   0:00  \_ [kworker/3:1H]
+root       144  0.0  0.0      0     0 ?        S    févr.08   0:00  \_ [jbd2/sda1-8]
+root       145  0.0  0.0      0     0 ?        S<   févr.08   0:00  \_ [ext4-rsv-conver]
+root       180  0.0  0.0      0     0 ?        S    févr.08   0:00  \_ [kauditd]
+root       228  0.0  0.0      0     0 ?        S    févr.08   0:00  \_ [irq/48-mei_me]
+root       243  0.0  0.0      0     0 ?        S<   févr.08   0:00  \_ [hd-audio1]
+root       245  0.0  0.0      0     0 ?        S<   févr.08   0:00  \_ [hd-audio0]
+root       253  0.0  0.0      0     0 ?        S<   févr.08   0:00  \_ [cfg80211]
+root       285  0.0  0.0      0     0 ?        S<   févr.08   0:00  \_ [kvm-irqfd-clean]
+root       301  0.0  0.0      0     0 ?        S<   févr.08   0:00  \_ [ttm_swap]
+root       492  0.0  0.0      0     0 ?        S<   févr.08   0:00  \_ [rpciod]
+root       494  0.0  0.0      0     0 ?        S<   févr.08   0:00  \_ [nfsiod]
+root      9964  0.0  0.0      0     0 ?        S    13:00   0:00  \_ [kworker/2:0]
+root     10012  0.0  0.0      0     0 ?        S    13:17   0:00  \_ [kworker/0:0]
+root     10059  0.0  0.0      0     0 ?        S    13:34   0:00  \_ [kworker/0:1]
+root     10072  0.0  0.0      0     0 ?        S    13:38   0:00  \_ [kworker/3:1]
+root     10083  0.0  0.0      0     0 ?        S    13:40   0:00  \_ [kworker/u8:0]
+root     10084  0.0  0.0      0     0 ?        S    13:42   0:00  \_ [kworker/1:1]
+root     10094  0.0  0.0      0     0 ?        S    13:44   0:00  \_ [kworker/3:2]
+root     10105  0.0  0.0      0     0 ?        S    13:47   0:00  \_ [kworker/1:0]
+root     10110  0.0  0.0      0     0 ?        S    13:51   0:00  \_ [kworker/u8:2]
+root     10120  0.0  0.0      0     0 ?        S    13:51   0:00  \_ [kworker/2:2]
+root     10121  0.0  0.0      0     0 ?        S    13:52   0:00  \_ [kworker/1:2]
+root     10131  0.1  0.0      0     0 ?        S    13:55   0:00  \_ [kworker/1:3]
+root     10132  0.0  0.0      0     0 ?        S    13:56   0:00  \_ [kworker/u8:1]
+root     10133  0.0  0.0      0     0 ?        S    13:56   0:00  \_ [kworker/2:1]
+root     10148  0.0  0.0      0     0 ?        S    13:58   0:00  \_ [kworker/3:0]
+root     10156  0.0  0.0      0     0 ?        S    13:58   0:00  \_ [scsi_eh_6]
+root     10157  0.0  0.0      0     0 ?        S<   13:58   0:00  \_ [scsi_tmf_6]
+root     10158  0.0  0.0      0     0 ?        S    13:58   0:00  \_ [usb-storage]
+root     10163  0.0  0.0      0     0 ?        S    13:58   0:00  \_ [kworker/u8:3]
+root         1  0.0  0.0 176268  5140 ?        Ss   févr.08   0:05 /sbin/init
+root       191  0.0  0.0  41856  4212 ?        Ss   févr.08   0:00 /lib/systemd/systemd-udevd
+root     10233  0.0  0.0  41856  2328 ?        S    13:59   0:00  \_ /lib/systemd/systemd-udevd
+root       198  0.0  0.2  61700 22988 ?        Ss   févr.08   0:10 /lib/systemd/systemd-journald
+root       477  0.0  0.0  37080  2664 ?        Ss   févr.08   0:00 /sbin/rpcbind -w
+statd      487  0.0  0.0  37280  2948 ?        Ss   févr.08   0:00 /sbin/rpc.statd
+root       501  0.0  0.0  23356   204 ?        Ss   févr.08   0:00 /usr/sbin/rpc.idmapd
+root       504  0.0  0.0 276216  6476 ?        Ssl  févr.08   0:02 /usr/lib/accountsservice/accounts-daemon
+avahi      506  0.0  0.0  32224  2920 ?        Ss   févr.08   0:05 avahi-daemon: running [PC-77.local]
+avahi      525  0.0  0.0  32100   252 ?        S    févr.08   0:00  \_ avahi-daemon: chroot helper
+daemon     508  0.0  0.0  19024  1836 ?        Ss   févr.08   0:00 /usr/sbin/atd -f
+root       512  0.0  0.0  27504  2768 ?        Ss   févr.08   0:00 /usr/sbin/cron -f
+root       513  0.0  0.1 336288  8184 ?        Ssl  févr.08   0:00 /usr/sbin/ModemManager
+root       514  0.0  0.0  55184  5392 ?        Ss   févr.08   0:00 /usr/sbin/sshd -D
+root       515  0.0  0.0 258672  4084 ?        Ssl  févr.08   0:02 /usr/sbin/rsyslogd -n
+root       516  0.0  0.1 357276 13184 ?        Ssl  févr.08   0:11 /usr/sbin/NetworkManager --no-daemon
+root       833  0.0  0.1  25404 10112 ?        S    févr.08   0:00  \_ /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /var/run/dhclient-eth0.pid -lf /var/lib/NetworkManager/dhclient-12f1d259-00e0-4f15-9a4c-07bbaae2057e-eth0.lease -cf /var/lib/NetworkManager/dhclient-eth0.conf eth0
+root       519  0.0  0.0  28356  2852 ?        Ss   févr.08   0:00 /lib/systemd/systemd-logind
+message+   520  0.0  0.0  42948  4100 ?        Ss   févr.08   0:06 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+root       541  0.0  0.0  71704  5056 ?        Ss   févr.08   0:00 /usr/sbin/cups-browsed
+root       542  0.0  0.0   4256  1672 ?        Ss   févr.08   0:00 /usr/sbin/acpid
+root       544  0.1  0.4 365560 35252 ?        Ssl  févr.08   4:59 /usr/bin/dockerd -H fd://
+root       845  0.0  0.1 365668  9356 ?        Ssl  févr.08   2:47  \_ docker-containerd -l unix:///var/run/docker/libcontainerd/docker-containerd.sock --metrics-interval=0 --start-timeout 2m --state-dir /var/run/docker/libcontainerd/containerd --shim docker-containerd-shim --runtime docker-runc
+root       553  0.0  0.0  14416  2008 tty1     Ss+  févr.08   0:00 /sbin/agetty --noclear tty1 linux
+root       566  0.0  0.0 278484  6012 ?        SLsl févr.08   0:00 /usr/sbin/lightdm
+root       582  0.0  0.8 355024 70596 tty7     Ss+  févr.08   2:02  \_ /usr/bin/X :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+root      5609  0.0  0.0 160372  6284 ?        Sl   févr.09   0:00  \_ lightdm --session-child 12 21
+dkr       5620  0.0  0.2 417256 20036 ?        Ssl  févr.09   0:00      \_ x-session-manager
+dkr       5643  0.0  0.0  10700   340 ?        Ss   févr.09   0:00          \_ /usr/bin/ssh-agent /usr/bin/dbus-launch --exit-with-session x-session-manager
+dkr       5665  0.0  0.3 928556 30444 ?        Sl   févr.09   0:02          \_ /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/cinnamon-settings-daemon
+dkr       5759  0.0  0.3 244132 29164 ?        Sl   févr.09   0:00          \_ /usr/bin/python /usr/bin/cinnamon-launcher
+dkr       5775  0.2  4.6 1852000 375704 ?      Sl   févr.09   3:33          |   \_ cinnamon --replace
+dkr       5780  0.0  0.2 239480 18144 ?        Sl   févr.09   0:00          \_ /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+dkr       5781  0.0  0.5 736108 41600 ?        Sl   févr.09   0:01          \_ nemo -n
+dkr       5783  0.0  0.3 504364 27000 ?        Sl   févr.09   0:00          \_ nm-applet
+dkr       5791  0.0  0.1 557680 12168 ?        Sl   févr.09   0:00          \_ zeitgeist-datahub
+dkr       5875  0.1  0.4 475628 40216 ?        Sl   févr.09   1:23          \_ cinnamon-screensaver
+dkr       5880  0.0  0.2 229868 22940 ?        Sl   févr.09   0:00          \_ /usr/bin/python /usr/share/system-config-printer/applet.py
+root       569  0.0  0.0 279980  7412 ?        Ssl  févr.08   0:00 /usr/lib/policykit-1/polkitd --no-debug
+root       573  0.0  0.0   4236    96 ?        Ss   févr.08   0:00 /usr/sbin/minissdpd -i 0.0.0.0
+root       588  0.0  0.0  31004  6316 ?        Ss   févr.08   0:29 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+Debian-+   844  0.0  0.0  53240  3280 ?        Ss   févr.08   0:00 /usr/sbin/exim4 -bd -q30m
+lightdm    879  0.0  0.0  35632  3816 ?        Ss   févr.08   0:00 /lib/systemd/systemd --user
+lightdm    894  0.0  0.0  52176  2072 ?        S    févr.08   0:00  \_ (sd-pam)  
+lightdm   1073  0.0  0.0  24504  1816 ?        S    févr.08   0:00 /usr/bin/dbus-launch --autolaunch 5bc18f03c01f4ace93004647869275ff --binary-syntax --close-stderr
+lightdm   1157  0.0  0.0  42124  2400 ?        Ss   févr.08   0:00 /usr/bin/dbus-daemon --fork --print-pid 5 --print-address 7 --session
+lightdm   1159  0.0  0.0 337716  5620 ?        Sl   févr.08   0:00 /usr/lib/at-spi2-core/at-spi-bus-launcher
+lightdm   1183  0.0  0.0  42124  3360 ?        S    févr.08   0:00  \_ /usr/bin/dbus-daemon --config-file=/etc/at-spi2/accessibility.conf --nofork --print-address 3
+lightdm   1186  0.0  0.0 125328  6404 ?        Sl   févr.08   0:00 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+dkr       5613  0.0  0.0  35632  3864 ?        Ss   févr.09   0:00 /lib/systemd/systemd --user
+dkr       5614  0.0  0.0 199640  2120 ?        S    févr.09   0:00  \_ (sd-pam)  
+dkr       5618  0.0  0.0 282064  6496 ?        Sl   févr.09   0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+dkr       5646  0.0  0.0  24504  1816 ?        S    févr.09   0:00 /usr/bin/dbus-launch --exit-with-session x-session-manager
+dkr       5647  0.0  0.0  42636  3036 ?        Ss   févr.09   0:00 /usr/bin/dbus-daemon --fork --print-pid 5 --print-address 7 --session
+dkr       5649  0.0  0.0 337724  5664 ?        Sl   févr.09   0:00 /usr/lib/at-spi2-core/at-spi-bus-launcher
+dkr       5653  0.0  0.0  42256  3456 ?        S    févr.09   0:00  \_ /usr/bin/dbus-daemon --config-file=/etc/at-spi2/accessibility.conf --nofork --print-address 3
+dkr       5656  0.0  0.0 125328  4912 ?        Sl   févr.09   0:00 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+dkr       5679  0.0  0.1 441500 10328 ?        S<l  févr.09   0:00 /usr/bin/pulseaudio --start
+rtkit     5680  0.0  0.0 168780  2484 ?        SNsl févr.09   0:00 /usr/lib/rtkit/rtkit-daemon
+root      5683  0.0  0.1 238608  8344 ?        Ssl  févr.09   0:00 /usr/lib/upower/upowerd
+dkr       5707  0.0  0.0 210192  6960 ?        Sl   févr.09   0:00 /usr/lib/gvfs/gvfsd
+dkr       5717  0.0  0.1 451228  8940 ?        Sl   févr.09   0:00 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+root      5719  0.0  0.0 435244  7428 ?        Ssl  févr.09   0:13 /usr/lib/udisks2/udisksd --no-debug
+dkr       5728  0.0  0.0 202772  6016 ?        Sl   févr.09   0:00 /usr/lib/gvfs/gvfs-goa-volume-monitor
+dkr       5731  0.0  0.3 644132 25984 ?        Sl   févr.09   0:00 /usr/lib/gnome-online-accounts/goa-daemon
+dkr       5738  0.0  0.0   4336   104 ?        S    févr.09   0:00 /bin/sh /usr/bin/start-pulseaudio-x11
+dkr       5739  0.0  0.0  18524  2408 ?        S    févr.09   0:00  \_ /usr/bin/xprop -root -spy
+dkr       5746  0.0  0.0 215812  6380 ?        Sl   févr.09   0:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+dkr       5750  0.0  0.0 300312  7392 ?        Sl   févr.09   0:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+dkr       5755  0.0  0.0 209136  5940 ?        Sl   févr.09   0:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
+colord    5760  0.0  0.1 307332 12280 ?        Ssl  févr.09   0:00 /usr/lib/colord/colord
+dkr       5762  0.0  0.1 393224 10120 ?        Sl   févr.09   0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-printer
+dkr       5790  0.0  0.0 364240  7360 ?        Sl   févr.09   0:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.8 /org/gtk/gvfs/exec_spaw/0
+dkr       5803  0.0  0.0 358304  7548 ?        Sl   févr.09   0:00 /usr/bin/zeitgeist-daemon
+dkr       5811  0.0  0.0  52232  5408 ?        S    févr.09   0:00 /usr/lib/x86_64-linux-gnu/gconf/gconfd-2
+dkr       5816  0.0  0.0 178316  4768 ?        Sl   févr.09   0:00 /usr/lib/dconf/dconf-service
+dkr       5821  0.0  0.1 310908 14372 ?        Sl   févr.09   0:00 /usr/lib/x86_64-linux-gnu/zeitgeist-fts
+dkr       5840  0.0  0.0   5964   672 ?        S    févr.09   0:00  \_ /bin/cat
+dkr       5867  0.0  0.0 130916  6252 ?        Sl   févr.09   0:00 /usr/lib/gvfs/gvfsd-metadata
+dkr       5911  0.0  0.5 878128 42884 ?        Sl   févr.09   0:01 /usr/bin/nautilus --gapplication-service
+dkr       5922  0.0  0.0 283772  6244 ?        Sl   févr.09   0:00 /usr/lib/gvfs/gvfsd-burn --spawner :1.8 /org/gtk/gvfs/exec_spaw/2
+dkr       5932  0.0  0.3 404380 30120 ?        Sl   févr.09   0:01 /usr/lib/gnome-terminal/gnome-terminal-server
+dkr       5935  0.0  0.0  14692  1780 ?        S    févr.09   0:00  \_ gnome-pty-helper
+dkr       5936  0.0  0.0  24944  6952 pts/0    Ss+  févr.09   0:00  \_ bash
+dkr      10193  0.1  0.0  24972  6932 pts/1    Ss   13:58   0:00  \_ bash
+root     10212  0.0  0.0  53440  3836 pts/1    S+   13:58   0:00      \_ sudo ./extract_linux_0.1.sh
+root     10216  0.0  0.0  13600  3424 pts/1    S+   13:58   0:00          \_ /bin/bash ./extract_linux_0.1.sh
+root     10242  0.0  0.0  19260  2784 pts/1    R+   13:59   0:00              \_ ps faux
+dkr       5953  0.1  0.0 255804  3672 ?        Ssl  févr.09   2:13 adb -P 5037 fork-server server --reply-fd 4
+root      8955  0.0  0.0  86232  6728 ?        Ss   07:35   0:00 /usr/sbin/cupsd -f

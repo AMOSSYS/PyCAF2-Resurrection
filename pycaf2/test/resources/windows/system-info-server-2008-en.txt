@@ -1,0 +1,330 @@
+
+Host Name:                 HPWBDOMA1-01
+OS Name:                   Microsoft Windows Server 2008 R2 Enterprise 
+OS Version:                6.1.7601 Service Pack 1 Build 7601
+OS Manufacturer:           Microsoft Corporation
+OS Configuration:          Member Server
+OS Build Type:             Multiprocessor Free
+Registered Owner:          
+Registered Organization:   
+Product ID:                55041-262-1854003-84222
+Original Install Date:     3/21/2013, 8:45:10 PM
+System Boot Time:          3/23/2016, 9:38:27 AM
+System Manufacturer:       HP
+System Model:              ProLiant DL380e Gen8
+System Type:               x64-based PC
+Processor(s):              2 Processor(s) Installed.
+                           [01]: Intel64 Family 6 Model 45 Stepping 7 GenuineIntel ~2400 Mhz
+                           [02]: Intel64 Family 6 Model 45 Stepping 7 GenuineIntel ~2400 Mhz
+BIOS Version:              HP P73, 12/14/2012
+Windows Directory:         C:\Windows
+System Directory:          C:\Windows\system32
+Boot Device:               \Device\HarddiskVolume1
+System Locale:             en-us;English (United States)
+Input Locale:              en-us;English (United States)
+Time Zone:                 (UTC) Dublin, Edinburgh, Lisbon, London
+Total Physical Memory:     98,141 MB
+Available Physical Memory: 85,406 MB
+Virtual Memory: Max Size:  113,139 MB
+Virtual Memory: Available: 100,265 MB
+Virtual Memory: In Use:    12,874 MB
+Page File Location(s):     F:\pagefile.sys
+Domain:                    prod-ma.sps.lan
+Logon Server:              \\HPWADIMA1-03
+Hotfix(s):                 311 Hotfix(s) Installed.
+                           [01]: KB981391
+                           [02]: KB981392
+                           [03]: KB977236
+                           [04]: KB981111
+                           [05]: KB977238
+                           [06]: KB2849697
+                           [07]: KB2849696
+                           [08]: KB2841134
+                           [09]: KB977239
+                           [10]: KB2670838
+                           [11]: KB2830477
+                           [12]: KB2592687
+                           [13]: KB981390
+                           [14]: KB2386667
+                           [15]: KB2425227
+                           [16]: KB2506014
+                           [17]: KB2506212
+                           [18]: KB2506928
+                           [19]: KB2509553
+                           [20]: KB2511455
+                           [21]: KB2512715
+                           [22]: KB2515325
+                           [23]: KB2525835
+                           [24]: KB2529073
+                           [25]: KB2533552
+                           [26]: KB2536275
+                           [27]: KB2536276
+                           [28]: KB2541014
+                           [29]: KB2544893
+                           [30]: KB2545698
+                           [31]: KB2547666
+                           [32]: KB2552343
+                           [33]: KB2560656
+                           [34]: KB2563227
+                           [35]: KB2564958
+                           [36]: KB2570947
+                           [37]: KB2574819
+                           [38]: KB2584146
+                           [39]: KB2585542
+                           [40]: KB2603229
+                           [41]: KB2604115
+                           [42]: KB2607047
+                           [43]: KB2608658
+                           [44]: KB2618451
+                           [45]: KB2620704
+                           [46]: KB2620712
+                           [47]: KB2621440
+                           [48]: KB2631813
+                           [49]: KB2636573
+                           [50]: KB2640148
+                           [51]: KB2643719
+                           [52]: KB2644615
+                           [53]: KB2645640
+                           [54]: KB2647753
+                           [55]: KB2653956
+                           [56]: KB2654428
+                           [57]: KB2655992
+                           [58]: KB2656356
+                           [59]: KB2658846
+                           [60]: KB2659262
+                           [61]: KB2660075
+                           [62]: KB2661254
+                           [63]: KB2667402
+                           [64]: KB2676562
+                           [65]: KB2685811
+                           [66]: KB2685813
+                           [67]: KB2685939
+                           [68]: KB2690533
+                           [69]: KB2691442
+                           [70]: KB2698365
+                           [71]: KB2699779
+                           [72]: KB2705219
+                           [73]: KB2706045
+                           [74]: KB2709630
+                           [75]: KB2709981
+                           [76]: KB2712808
+                           [77]: KB2716513
+                           [78]: KB2718704
+                           [79]: KB2719033
+                           [80]: KB2719857
+                           [81]: KB2726535
+                           [82]: KB2729094
+                           [83]: KB2729452
+                           [84]: KB2732059
+                           [85]: KB2736233
+                           [86]: KB2739159
+                           [87]: KB2742599
+                           [88]: KB2743555
+                           [89]: KB2744129
+                           [90]: KB2749655
+                           [91]: KB2750841
+                           [92]: KB2753842
+                           [93]: KB2757638
+                           [94]: KB2758857
+                           [95]: KB2761217
+                           [96]: KB2763523
+                           [97]: KB2765809
+                           [98]: KB2769369
+                           [99]: KB2770660
+                           [100]: KB2778344
+                           [101]: KB2779562
+                           [102]: KB2785220
+                           [103]: KB2786081
+                           [104]: KB2786400
+                           [105]: KB2789645
+                           [106]: KB2790113
+                           [107]: KB2790655
+                           [108]: KB2791765
+                           [109]: KB2798162
+                           [110]: KB2799494
+                           [111]: KB2800095
+                           [112]: KB2804579
+                           [113]: KB2807986
+                           [114]: KB2808679
+                           [115]: KB2808735
+                           [116]: KB2809289
+                           [117]: KB2813170
+                           [118]: KB2813347
+                           [119]: KB2813430
+                           [120]: KB2820197
+                           [121]: KB2820331
+                           [122]: KB2823324
+                           [123]: KB2829361
+                           [124]: KB2830290
+                           [125]: KB2834140
+                           [126]: KB2835361
+                           [127]: KB2836943
+                           [128]: KB2839894
+                           [129]: KB2840149
+                           [130]: KB2843630
+                           [131]: KB2847311
+                           [132]: KB2852386
+                           [133]: KB2853952
+                           [134]: KB2857650
+                           [135]: KB2862152
+                           [136]: KB2862330
+                           [137]: KB2862335
+                           [138]: KB2862966
+                           [139]: KB2862973
+                           [140]: KB2864058
+                           [141]: KB2864202
+                           [142]: KB2868038
+                           [143]: KB2868116
+                           [144]: KB2868626
+                           [145]: KB2871997
+                           [146]: KB2872339
+                           [147]: KB2882822
+                           [148]: KB2884256
+                           [149]: KB2887069
+                           [150]: KB2888049
+                           [151]: KB2891804
+                           [152]: KB2892074
+                           [153]: KB2893294
+                           [154]: KB2893519
+                           [155]: KB2894844
+                           [156]: KB2900986
+                           [157]: KB2908783
+                           [158]: KB2911501
+                           [159]: KB2912390
+                           [160]: KB2913152
+                           [161]: KB2918614
+                           [162]: KB2919469
+                           [163]: KB2922229
+                           [164]: KB2923545
+                           [165]: KB2926765
+                           [166]: KB2928562
+                           [167]: KB2929733
+                           [168]: KB2929755
+                           [169]: KB2931356
+                           [170]: KB2937610
+                           [171]: KB2939576
+                           [172]: KB2957189
+                           [173]: KB2957503
+                           [174]: KB2957509
+                           [175]: KB2961072
+                           [176]: KB2966583
+                           [177]: KB2968294
+                           [178]: KB2970228
+                           [179]: KB2972100
+                           [180]: KB2972211
+                           [181]: KB2973201
+                           [182]: KB2973337
+                           [183]: KB2973351
+                           [184]: KB2976627
+                           [185]: KB2976897
+                           [186]: KB2977292
+                           [187]: KB2977728
+                           [188]: KB2978092
+                           [189]: KB2978120
+                           [190]: KB2978668
+                           [191]: KB2979570
+                           [192]: KB2980245
+                           [193]: KB2984972
+                           [194]: KB2984976
+                           [195]: KB2984981
+                           [196]: KB2985461
+                           [197]: KB2987107
+                           [198]: KB2991963
+                           [199]: KB2992611
+                           [200]: KB2993651
+                           [201]: KB2994023
+                           [202]: KB2998527
+                           [203]: KB2999226
+                           [204]: KB3000061
+                           [205]: KB3000483
+                           [206]: KB3000869
+                           [207]: KB3000988
+                           [208]: KB3003743
+                           [209]: KB3004361
+                           [210]: KB3004375
+                           [211]: KB3005607
+                           [212]: KB3006137
+                           [213]: KB3006226
+                           [214]: KB3006625
+                           [215]: KB3010788
+                           [216]: KB3011780
+                           [217]: KB3014029
+                           [218]: KB3018238
+                           [219]: KB3020338
+                           [220]: KB3020369
+                           [221]: KB3020370
+                           [222]: KB3020388
+                           [223]: KB3021674
+                           [224]: KB3022777
+                           [225]: KB3023215
+                           [226]: KB3030377
+                           [227]: KB3031432
+                           [228]: KB3032655
+                           [229]: KB3033889
+                           [230]: KB3033929
+                           [231]: KB3035126
+                           [232]: KB3035132
+                           [233]: KB3037574
+                           [234]: KB3040272
+                           [235]: KB3042058
+                           [236]: KB3042553
+                           [237]: KB3045685
+                           [238]: KB3046017
+                           [239]: KB3046269
+                           [240]: KB3054205
+                           [241]: KB3054476
+                           [242]: KB3055642
+                           [243]: KB3059317
+                           [244]: KB3060716
+                           [245]: KB3061518
+                           [246]: KB30
+Network Card(s):           11 NIC(s) Installed.
+                           [01]: HP Ethernet 1Gb 4-port 331T Adapter
+                                 Connection Name: Local Area Connection
+                                 Status:          Hardware not present
+                           [02]: HP Ethernet 1Gb 4-port 331T Adapter
+                                 Connection Name: Local Area Connection 2
+                                 Status:          Hardware not present
+                           [03]: HP Ethernet 1Gb 4-port 331T Adapter
+                                 Connection Name: PCI NIC1 - SW2 VLAN CLUSTER
+                                 DHCP Enabled:    Yes
+                                 DHCP Server:     N/A
+                                 IP address(es)
+                           [04]: HP Ethernet 1Gb 4-port 331T Adapter
+                                 Connection Name: PCI NIC2 - SW2 VLAN DB
+                                 DHCP Enabled:    Yes
+                                 DHCP Server:     N/A
+                                 IP address(es)
+                           [05]: HP Ethernet 1Gb 4-port 366i Adapter
+                                 Connection Name: Local Area Connection 5
+                                 Status:          Media disconnected
+                           [06]: HP Ethernet 1Gb 4-port 366i Adapter
+                                 Connection Name: Onboard NIC1 - SW1 VLAN DB
+                                 DHCP Enabled:    No
+                                 IP address(es)
+                           [07]: HP Ethernet 1Gb 4-port 366i Adapter
+                                 Connection Name: Onboard NIC2 - SW1 VLAN CLUSTER
+                                 DHCP Enabled:    No
+                                 IP address(es)
+                           [08]: HP Ethernet 1Gb 4-port 366i Adapter
+                                 Connection Name: LAN Backup
+                                 DHCP Enabled:    No
+                                 IP address(es)
+                           [09]: HP Network Teaming Virtual Miniport Driver
+                                 Connection Name: Local Area Connection 6
+                                 DHCP Enabled:    No
+                                 IP address(es)
+                                 [01]: 10.254.125.12
+                           [10]: HP Network Teaming Virtual Miniport Driver
+                                 Connection Name: Local Area Connection 3
+                                 DHCP Enabled:    No
+                                 IP address(es)
+                                 [01]: 10.69.36.22
+                                 [02]: 10.69.36.24
+                                 [03]: fe80::4425:4d40:a2ec:7d67
+                           [11]: HP Network Teaming Virtual Miniport Driver
+                                 Connection Name: Local Area Connection 4
+                                 DHCP Enabled:    No
+                                 IP address(es)
+                                 [01]: 10.69.36.193
+                                 [02]: fe80::2559:4147:f263:b413

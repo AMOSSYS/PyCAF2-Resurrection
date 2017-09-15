@@ -1,0 +1,7 @@
+# Git ignore file
+# ===============
+
+# Ignore log and pyc files
+**/*.log
+**/*.pyc
+server.pickle

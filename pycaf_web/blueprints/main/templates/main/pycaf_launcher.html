@@ -1,0 +1,25 @@
+{%- extends "base.html" %}
+{% import "bootstrap/utils.html" as utils %}
+
+{% block content %}
+
+<div class="container">
+
+  <div align="center">
+    <h2>Select your tar.gz archive:</h2>
+    <form method=POST enctype=multipart/form-data action="{{ url_for('main.import_and_run') }}">
+      <table class="table table-striped">
+      <tr>
+        <td><input id="archive" name="archive" type="file"></td>
+        <td><input type="submit" value="Run PyCAF2!" class="btn btn-lg btn-default"></td>
+      </tr>
+      </table>
+    </form>
+
+  </div>
+
+</div>
+
+
+
+{%- endblock %}

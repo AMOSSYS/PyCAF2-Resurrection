@@ -1,0 +1,5 @@
+Table de routage IP du noyau
+Destination     Passerelle      Genmask         Indic   MSS Fenêtre irtt Iface
+0.0.0.0         192.168.200.51  0.0.0.0         UG        0 0          0 eth0
+172.17.0.0      0.0.0.0         255.255.0.0     U         0 0          0 docker0
+192.168.200.0   0.0.0.0         255.255.255.0   U         0 0          0 eth0

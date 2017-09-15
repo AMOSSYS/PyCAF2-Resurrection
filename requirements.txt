@@ -1,0 +1,12 @@
+# Web
+flask
+flask_bootstrap
+flask-assets
+flask-nav
+
+# PyCAF
+argparse
+argcomplete
+colorama
+requests
+ipython

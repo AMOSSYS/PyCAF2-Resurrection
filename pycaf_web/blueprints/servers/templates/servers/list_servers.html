@@ -1,0 +1,42 @@
+
+{%- extends "base.html" %}
+
+{% block content %}
+
+<div class="container">
+
+  <h2>Analyzed servers</h2>
+
+  <div class="table-responsive">
+    <form action="{{ url_for('servers.compare_servers') }}" method="POST">
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>Server UUID</th>
+            <th>Type</th>
+            <th>OS</th>
+            <th>Version</th>
+            <th>Architecture</th>
+            <th>Select</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for uuid,server in servers.items() %}
+          <tr>
+            <td><a href="{{ url_for('servers.get_server_from_uuid', uuid=uuid) }}">{{ uuid }}</a></td>
+            <td>{{ server.os_informations['system_type'] }}</td>
+            <td>{{ server.os_informations['os'] }}</td>
+            <td>{{ server.os_informations['version'] }}</td>
+            <td>{{ server.os_informations['arch'] }}</td>
+            <td><input type="checkbox" name="{{ uuid }}" value="{{ uuid }}"></td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+      <input type="submit" value="Compare servers" class="btn btn-lg btn-default">
+    </form>
+  </div>
+
+</div>
+
+{%- endblock %}

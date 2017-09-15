@@ -1,0 +1,90 @@
+
+Nom de l'h“te:                              WINDOWS
+Nom du systŠme d'exploitation:              Microsoft Windows Server 2012 R2 Standard
+Version du systŠme:                         6.3.9600 N/A version 9600
+Fabricant du systŠme d'exploitation:        Microsoft Corporation
+Configuration du systŠme d'exploitation:    Serveur autonome
+Type de version du systŠme d'exploitation:  Multiprocessor Free
+Propri‚taire enregistr‚:                    Utilisateur Windows
+Organisation enregistr‚e:                   
+Identificateur de produit:                  00252-00114-05315-AA666
+Date d'installation originale:              09/01/2017, 16:15:00
+Heure de d‚marrage du systŠme:              23/01/2017, 16:54:37
+Fabricant du systŠme:                       QEMU
+ModŠle du systŠme:                          Standard PC (i440FX + PIIX, 1996)
+Type du systŠme:                            x64-based PC
+Processeur(s):                              1 processeur(s) install‚(s).
+                                            [01]ÿ: Intel64 Family 15 Model 6 Stepping 1 GenuineIntel ~2100 MHz
+Version du BIOS:                            SeaBIOS rel-1.9.3-0-ge2fc41e-prebuilt.qemu-project.org, 01/04/2014
+R‚pertoire Windows:                         C:\Windows
+R‚pertoire systŠme:                         C:\Windows\system32
+P‚riph‚rique d'amor‡age:                    \Device\HarddiskVolume1
+Option r‚gionale du systŠme:                fr;Fran‡ais (France)
+ParamŠtres r‚gionaux d'entr‚e:              fr;Fran‡ais (France)
+Fuseau horaire:                             (UTC+01:00) Bruxelles, Copenhague, Madrid, Paris
+M‚moire physique totale:                    2ÿ047 Mo
+M‚moire physique disponible:                1ÿ497 Mo
+M‚moire virtuelleÿ: taille maximale:        2ÿ431 Mo
+M‚moire virtuelleÿ: disponible:             1ÿ670 Mo
+M‚moire virtuelleÿ: en cours d'utilisation: 761 Mo
+Emplacements des fichiers d'‚change:        C:\pagefile.sys
+Domaine:                                    WORKGROUP
+Serveur d'ouverture de session:             \\WINDOWS
+Correctif(s):                               48 Corrections install‚es.
+                                            [01]: KB2843630
+                                            [02]: KB2862152
+                                            [03]: KB2868626
+                                            [04]: KB2876331
+                                            [05]: KB2883200
+                                            [06]: KB2884101
+                                            [07]: KB2884846
+                                            [08]: KB2887595
+                                            [09]: KB2892074
+                                            [10]: KB2893294
+                                            [11]: KB2894029
+                                            [12]: KB2894179
+                                            [13]: KB2898514
+                                            [14]: KB2898742
+                                            [15]: KB2898871
+                                            [16]: KB2900986
+                                            [17]: KB2901101
+                                            [18]: KB2901128
+                                            [19]: KB2903939
+                                            [20]: KB2904266
+                                            [21]: KB2906956
+                                            [22]: KB2908174
+                                            [23]: KB2911106
+                                            [24]: KB2912390
+                                            [25]: KB2913152
+                                            [26]: KB2913270
+                                            [27]: KB2913760
+                                            [28]: KB2914218
+                                            [29]: KB2916036
+                                            [30]: KB2917929
+                                            [31]: KB2917993
+                                            [32]: KB2919394
+                                            [33]: KB2922229
+                                            [34]: KB2923300
+                                            [35]: KB2923528
+                                            [36]: KB2923768
+                                            [37]: KB2928193
+                                            [38]: KB2928680
+                                            [39]: KB2930275
+                                            [40]: KB2931366
+                                            [41]: KB2934504
+                                            [42]: KB2934520
+                                            [43]: KB2939087
+                                            [44]: KB2962123
+                                            [45]: KB2962806
+                                            [46]: KB3054203
+                                            [47]: KB3172729
+                                            [48]: KB3173424
+Carte(s) r‚seau:                            1 carte(s) r‚seau install‚e(s).
+                                            [01]: Red Hat VirtIO Ethernet Adapter
+                                                  Nom de la connexionÿ: Ethernet
+                                                  DHCP activ‚ÿ:         Oui
+                                                  Serveur DHCPÿ:        192.168.86.2
+                                                  Adresse(s) IP
+                                                  [01]: 192.168.86.143
+                                                  [02]: fe80::9daf:d47b:f116:dc1
+Configuration requise pour Hyper-V:         Un hyperviseur a ‚t‚ d‚tect‚. Les fonctionnalit‚s n‚cessaires … Hyper-V ne seront pas affich‚es.

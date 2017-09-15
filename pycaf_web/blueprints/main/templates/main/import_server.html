@@ -1,0 +1,25 @@
+{%- extends "base.html" %}
+{% import "bootstrap/utils.html" as utils %}
+
+{% block content %}
+
+<div class="container">
+
+  <div align="center">
+    <h2>Select the pickled file to import:</h2>
+    <form method=POST enctype=multipart/form-data action="{{ url_for('main.import_from_file') }}">
+      <table class="table table-striped">
+      <tr>
+        <td><input id="pickled_file" name="pickled_file" type="file"></td>
+        <td><input type="submit" value="Import server" class="btn btn-lg btn-default"></td>
+      </tr>
+      </table>
+    </form>
+
+  </div>
+
+</div>
+
+
+
+{%- endblock %}

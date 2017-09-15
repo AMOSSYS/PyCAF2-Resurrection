@@ -1,0 +1,28 @@
+User_Alias     OPERATORS = joe, mike, jude : OTHER = john
+Runas_Alias    OP = root, operator
+Host_Alias     OFNET = 10.1.2.0/255.255.255.0
+Cmnd_Alias     PRINTING = /usr/sbin/lpc, /usr/bin/lprm
+
+# Users in the OPERATORS group can run any command from any terminal.
+OPERATORS ALL=ALL
+
+# User linus can run any command from any terminal as any user in the OP group (root or operator).
+linus ALL=(OP) ALL
+
+# user2 may run any command from any machine in the  OFNET network, as any user.
+user2 OFNET=(ALL) ALL
+
+# user3 may run lpc and lprm from any machine.
+user3 ALL= PRINTING
+
+# user4 may run any command from any machine acting as any user. (like Ubuntu)
+user4 ALL=(ALL) ALL
+
+# user5 may run any command from any machine acting as any user. (like Ubuntu)
+user2 ALL=(ALL) NOPASSWD: ALL
+
+# user millert need not give a password
+Defaults:millert  !authenticate
+
+# The user dgb may run /bin/ls, /bin/kill, and /usr/bin/lprm on the host boulder—but only as operator.
+dgb	boulder = (operator) /bin/ls, /bin/kill, /usr/bin/lprm

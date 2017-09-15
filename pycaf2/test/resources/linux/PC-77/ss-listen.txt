@@ -1,0 +1,12 @@
+State      Recv-Q Send-Q      Local Address:Port          Peer Address:Port   
+LISTEN     0      128                     *:48468                    *:*        users:(("rpc.statd",pid=487,fd=9))
+LISTEN     0      128                     *:ssh                      *:*        users:(("sshd",pid=514,fd=3))
+LISTEN     0      128             127.0.0.1:ipp                      *:*        users:(("cupsd",pid=8955,fd=11))
+LISTEN     0      20              127.0.0.1:smtp                     *:*        users:(("exim4",pid=844,fd=4))
+LISTEN     0      4               127.0.0.1:5037                     *:*        users:(("adb",pid=5953,fd=7))
+LISTEN     0      128                     *:sunrpc                   *:*        users:(("rpcbind",pid=477,fd=8))
+LISTEN     0      128                    :::ssh                     :::*        users:(("sshd",pid=514,fd=4))
+LISTEN     0      128                   ::1:ipp                     :::*        users:(("cupsd",pid=8955,fd=10))
+LISTEN     0      20                    ::1:smtp                    :::*        users:(("exim4",pid=844,fd=5))
+LISTEN     0      128                    :::49082                   :::*        users:(("rpc.statd",pid=487,fd=11))
+LISTEN     0      128                    :::sunrpc                  :::*        users:(("rpcbind",pid=477,fd=11))

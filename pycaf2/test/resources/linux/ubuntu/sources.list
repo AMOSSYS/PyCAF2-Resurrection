@@ -1,0 +1,10 @@
+# Please do not change this file directly since it is managed by Ansible and will be overwritten.
+
+deb [arch=amd64] http://ubuntu.mirrors.ovh.net/ubuntu xenial main restricted universe multiverse
+deb [arch=amd64] http://ubuntu.mirrors.ovh.net/ubuntu xenial-updates main restricted universe multiverse
+deb [arch=amd64] http://ubuntu.mirrors.ovh.net/ubuntu xenial-security main restricted universe multiverse
+deb [arch=amd64] http://ubuntu.mirrors.ovh.net/ubuntu xenial-backports main universe
+
+# deb http://ubuntu.mirrors.ovh.net/ubuntu xenial-backports main universe
+
+# list : https://launchpad.net/ubuntu/+archivemirrors

@@ -1,0 +1,2 @@
+State      Recv-Q Send-Q        Local Address:Port          Peer Address:Port 
+CLOSE-WAIT 1      0                       ::1:35109                  ::1:631    users:(("cups-browsed",pid=541,fd=5))

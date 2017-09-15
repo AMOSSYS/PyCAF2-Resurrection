@@ -1,0 +1,58 @@
+
+{%- extends "base.html" %}
+
+{% block content %}
+
+  <div class="container">
+    <div class="jumbotron" align="center">
+      <h2>Server UUID: {{ server_id }}</h2>
+    </div>
+
+    <h2>General</h2>
+    <div class="table-responsive">
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>OS Informations</th>
+            <th>Value</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for key,value in os_informations.items() %}
+          <tr>
+            <td>{{ key }}</td>
+            <td>{{ value }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+
+    <h2>Analyzed modules</h2>
+    {% for module in modules %}
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>Modules</th>
+            <th>Improvements</th>
+            <th>Warnings</th>
+            <th>Criticals</th>
+            <th>See details</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>{{ module.name }}</td>
+            <td>{{ len(module.get_improvements()) }}</td>
+            <td>{{ len(module.get_warnings()) }}</td>
+            <td>{{ len(module.get_criticals()) }}</td>
+            <td>{{ url_for('servers.get_module_details', uuid=uuid, module_name=module.name) }}</td>
+          </tr>
+        </tbody>
+      </table>
+    {% endfor %}
+    </ul>
+
+  </div>
+
+{% endblock %}

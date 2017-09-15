@@ -1,0 +1,11 @@
+Outil d'extraction de configuration pour Microsoft Windows
+==========================================================
+
+Le script est relativement naif et exécute divers outils proposés par
+Microsoft ou par des tiers. Les logiciels tiers sont présents dans le
+répertoire bin/. Le fichier bin/TOOLS.txt présente les différents
+outils ainsi que l'URL permettant de les télécharger.
+
+Les données sont exportées par le script dans le répertoire ./output-%COMPUTERNAME%/
+puis compressées à l'aide de 7-Zip. Le répertoire de sortie est
+ensuite supprimé.

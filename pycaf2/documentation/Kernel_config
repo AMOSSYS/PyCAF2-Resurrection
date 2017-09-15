@@ -1,0 +1,70 @@
+# purpose of this verification point
+
+the "/boot/config-`uname -r`" file defines the compilation options of the kernel actually installed on the machine. It is so useful to know if some security parameters have been used to compile your kernel.
+
+this config file is actually defined as follows : config_parameter = [ynm]
+
+for a defined parameter, "y" means the module is compiled directly in the kernel, "n" means the module is not compiled, and "m" is for a module compiled as a loadable module, that can be loaded on demand.
+
+# list of all checks done
+
+parameter "CONFIG_DEBUG_RODATA":
+          this parameter defines if the kernel ".text" and ".rodata" are marked as read-only.
+          the expected value is "y", in order to avoid direct memory corruption
+
+parameter "CONFIG_CC_STACKPROTECTOR":
+          this parameter defines if the kernel is compiled with stack canaries.
+          the expected value is "y", in order to define an exploitation mitigation mesure within the kernel itself
+
+parameter "CONFIG_CC_STACKPROTECTOR_STRONG":
+          this parameter defines if the kernel is compiled with extra stack canaries
+          the expected value is "y", in order to mitigate exploitation of kernel
+
+parameter "CONFIG_STRICT_DEVMEM":
+          this parameter defines if physical memory is restricted from any access.
+          the expected value is "y", in order to mitigate exploitation of kernel
+
+parameter "CONFIG_IO_STRICT_DEVMEM":
+          this parameter defines if I/O physical memory is restricted from any access.
+          the expected value is "y", in order to mitigate exploitation of kernel
+
+parameter "CONFIG_SYN_COOKIES":
+          this parameter defines if the kernel has some buit-in functionnalities against SYN flooding
+          the expected value is "y", fu that attack
+
+parameter "CONFIG_SECCOMP":
+parameter "CONFIG_SECCOMP_FILTER":
+          those two parameters provide userspace with seccomp BPF API for syscall attack surface reduction. Especially, it's a security feature used by chrome, docker and firejail.
+          the expected value is "y", for obvious reasons of diminushing attack surface
+
+parameter "CONFIG_HARDENED_USERCOPY"
+          this parameter defines if there is some bounds checkings on usercopy.
+          the expected value is "y", for exploitation mitigation
+
+parameter "CONFIG_PANIC_ON_OOPS":
+          this parameter defines if kernel should enter panic state on Oops
+          the expected value is "y", in order to avoid exploit chains
+
+parameter "CONFIG_PANIC_TIMEOUT":
+          this parameter defines the time between a panic state and device reboots. Combined with the previous parameter and the expected value, the kernel reboot devices immediately if kernel experiences an Oops.
+          the expected value is "-1", to set interval time to immediate.
+
+parameter "CONFIG_SLUB_DEBUG":
+          this parameter defines if slub debugger is included in the kernel. Especially, that debugger can detect use_after_free, buffer overflow and such. However, slub needs to be started at boot (see kernel_boot_config documentation file)
+          the expected value is "y", to make sure this debugger is included.
+
+parameter "CONFIG_PAGE_POISONING":
+          when set, memory pages are filled with poison patterns after a high level memory freeing. Those patterns are then verified before allocation. This protection avoids use_after_free exploits and avoid some information leaks.
+          the expected value is "y", for exploitation mitigation
+
+parameter "CONFIG_PAGE_POISONING_NO_SANITY":
+          when set to "y", there is no sanity check before allocation on poisoned memory.
+          the expected value is "n", in order to make those sanitzation checks.
+
+parameter "CONFIG_PAGE_POISONING_ZERO":
+          when this parameter is set, the poisoning is done with zero instead of patterns. this makes illegal access harder to find, but permits to use allocator without zeroing memory first.
+          the expected value is "n", for a maximum security.
+
+parameter "CONFIG_BUG":
+          when set, this parameter permits kernel to report BUG() conditions and kill the offending process
+          the expected value is "y".

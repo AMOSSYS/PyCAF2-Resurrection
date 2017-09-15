@@ -1,0 +1,322 @@
+
+Host Name:                 HPWTRXMA1-03
+OS Name:                   Microsoft(R) Windows(R) Server 2003 Standard x64 Edition
+OS Version:                5.2.3790 Service Pack 2 Build 3790
+OS Manufacturer:           Microsoft Corporation
+OS Configuration:          Member Server
+OS Build Type:             Multiprocessor Free
+Registered Owner:          SPS
+Registered Organization:   SPS
+Product ID:                76869-643-2190295-50265
+Original Install Date:     30/03/2010, 09:24:38
+System Up Time:            21 Days, 0 Hours, 58 Minutes, 58 Seconds
+System Manufacturer:       VMware, Inc.
+System Model:              VMware Virtual Platform
+System Type:               x64-based PC
+Processor(s):              2 Processor(s) Installed.
+                           [01]: EM64T Family 6 Model 45 Stepping 7 GenuineIntel ~2394 Mhz
+                           [02]: EM64T Family 6 Model 45 Stepping 7 GenuineIntel ~2394 Mhz
+BIOS Version:              UNKNOWN
+Windows Directory:         C:\WINDOWS
+System Directory:          C:\WINDOWS\system32
+Boot Device:               \Device\HarddiskVolume1
+System Locale:             en-us;English (United States)
+Input Locale:              fr;French (France)
+Time Zone:                 (GMT+01:00) Brussels, Copenhagen, Madrid, Paris
+Total Physical Memory:     4,095 MB
+Available Physical Memory: 3,021 MB
+Page File: Max Size:       7,912 MB
+Page File: Available:      7,264 MB
+Page File: In Use:         648 MB
+Page File Location(s):     f:\pagefile.sys
+Domain:                    prod-ma.sps.lan
+Logon Server:              \\HPWADIMA1-03
+Hotfix(s):                 533 Hotfix(s) Installed.
+                           [01]: File 1
+                           [02]: File 1
+                           [03]: File 1
+                           [04]: File 1
+                           [05]: File 1
+                           [06]: File 1
+                           [07]: File 1
+                           [08]: File 1
+                           [09]: File 1
+                           [10]: File 1
+                           [11]: File 1
+                           [12]: File 1
+                           [13]: File 1
+                           [14]: File 1
+                           [15]: File 1
+                           [16]: File 1
+                           [17]: File 1
+                           [18]: File 1
+                           [19]: File 1
+                           [20]: File 1
+                           [21]: File 1
+                           [22]: File 1
+                           [23]: File 1
+                           [24]: File 1
+                           [25]: File 1
+                           [26]: File 1
+                           [27]: File 1
+                           [28]: File 1
+                           [29]: File 1
+                           [30]: File 1
+                           [31]: File 1
+                           [32]: File 1
+                           [33]: File 1
+                           [34]: File 1
+                           [35]: File 1
+                           [36]: File 1
+                           [37]: File 1
+                           [38]: File 1
+                           [39]: File 1
+                           [40]: File 1
+                           [41]: File 1
+                           [42]: File 1
+                           [43]: File 1
+                           [44]: File 1
+                           [45]: File 1
+                           [46]: File 1
+                           [47]: File 1
+                           [48]: File 1
+                           [49]: File 1
+                           [50]: File 1
+                           [51]: File 1
+                           [52]: File 1
+                           [53]: File 1
+                           [54]: File 1
+                           [55]: File 1
+                           [56]: File 1
+                           [57]: File 1
+                           [58]: File 1
+                           [59]: File 1
+                           [60]: File 1
+                           [61]: File 1
+                           [62]: File 1
+                           [63]: File 1
+                           [64]: File 1
+                           [65]: File 1
+                           [66]: File 1
+                           [67]: File 1
+                           [68]: File 1
+                           [69]: File 1
+                           [70]: File 1
+                           [71]: File 1
+                           [72]: File 1
+                           [73]: File 1
+                           [74]: File 1
+                           [75]: File 1
+                           [76]: File 1
+                           [77]: File 1
+                           [78]: File 1
+                           [79]: File 1
+                           [80]: File 1
+                           [81]: File 1
+                           [82]: File 1
+                           [83]: File 1
+                           [84]: File 1
+                           [85]: File 1
+                           [86]: File 1
+                           [87]: File 1
+                           [88]: File 1
+                           [89]: File 1
+                           [90]: File 1
+                           [91]: File 1
+                           [92]: File 1
+                           [93]: File 1
+                           [94]: File 1
+                           [95]: File 1
+                           [96]: File 1
+                           [97]: File 1
+                           [98]: File 1
+                           [99]: File 1
+                           [100]: File 1
+                           [101]: File 1
+                           [102]: File 1
+                           [103]: File 1
+                           [104]: File 1
+                           [105]: File 1
+                           [106]: File 1
+                           [107]: File 1
+                           [108]: File 1
+                           [109]: File 1
+                           [110]: File 1
+                           [111]: File 1
+                           [112]: File 1
+                           [113]: File 1
+                           [114]: File 1
+                           [115]: File 1
+                           [116]: File 1
+                           [117]: File 1
+                           [118]: File 1
+                           [119]: File 1
+                           [120]: File 1
+                           [121]: File 1
+                           [122]: File 1
+                           [123]: File 1
+                           [124]: File 1
+                           [125]: File 1
+                           [126]: File 1
+                           [127]: File 1
+                           [128]: File 1
+                           [129]: File 1
+                           [130]: File 1
+                           [131]: File 1
+                           [132]: File 1
+                           [133]: File 1
+                           [134]: File 1
+                           [135]: File 1
+                           [136]: File 1
+                           [137]: File 1
+                           [138]: File 1
+                           [139]: File 1
+                           [140]: File 1
+                           [141]: File 1
+                           [142]: File 1
+                           [143]: File 1
+                           [144]: File 1
+                           [145]: File 1
+                           [146]: File 1
+                           [147]: File 1
+                           [148]: File 1
+                           [149]: File 1
+                           [150]: File 1
+                           [151]: File 1
+                           [152]: File 1
+                           [153]: File 1
+                           [154]: File 1
+                           [155]: File 1
+                           [156]: File 1
+                           [157]: File 1
+                           [158]: File 1
+                           [159]: File 1
+                           [160]: File 1
+                           [161]: File 1
+                           [162]: File 1
+                           [163]: File 1
+                           [164]: File 1
+                           [165]: File 1
+                           [166]: File 1
+                           [167]: File 1
+                           [168]: File 1
+                           [169]: File 1
+                           [170]: File 1
+                           [171]: File 1
+                           [172]: File 1
+                           [173]: File 1
+                           [174]: File 1
+                           [175]: File 1
+                           [176]: File 1
+                           [177]: File 1
+                           [178]: File 1
+                           [179]: File 1
+                           [180]: File 1
+                           [181]: File 1
+                           [182]: File 1
+                           [183]: File 1
+                           [184]: File 1
+                           [185]: File 1
+                           [186]: File 1
+                           [187]: File 1
+                           [188]: File 1
+                           [189]: File 1
+                           [190]: File 1
+                           [191]: File 1
+                           [192]: File 1
+                           [193]: File 1
+                           [194]: File 1
+                           [195]: File 1
+                           [196]: File 1
+                           [197]: File 1
+                           [198]: File 1
+                           [199]: File 1
+                           [200]: File 1
+                           [201]: File 1
+                           [202]: File 1
+                           [203]: File 1
+                           [204]: File 1
+                           [205]: File 1
+                           [206]: File 1
+                           [207]: File 1
+                           [208]: File 1
+                           [209]: File 1
+                           [210]: File 1
+                           [211]: File 1
+                           [212]: File 1
+                           [213]: File 1
+                           [214]: File 1
+                           [215]: File 1
+                           [216]: File 1
+                           [217]: File 1
+                           [218]: File 1
+                           [219]: File 1
+                           [220]: File 1
+                           [221]: File 1
+                           [222]: File 1
+                           [223]: File 1
+                           [224]: File 1
+                           [225]: File 1
+                           [226]: File 1
+                           [227]: File 1
+                           [228]: File 1
+                           [229]: File 1
+                           [230]: File 1
+                           [231]: File 1
+                           [232]: File 1
+                           [233]: File 1
+                           [234]: File 1
+                           [235]: File 1
+                           [236]: File 1
+                           [237]: File 1
+                           [238]: File 1
+                           [239]: File 1
+                           [240]: File 1
+                           [241]: File 1
+                           [242]: File 1
+                           [243]: File 1
+                           [244]: File 1
+                           [245]: File 1
+                           [246]: File 1
+                           [247]: File 1
+                           [248]: File 1
+                           [249]: File 1
+                           [250]: File 1
+                           [251]: File 1
+                           [252]: File 1
+                           [253]: File 1
+                           [254]: File 1
+                           [255]: File 1
+                           [256]: File 1
+                           [257]: File 1
+                           [258]: File 1
+                           [259]: File 1
+                           [260]: File 1
+                           [261]: File 1
+                           [262]: File 1
+                           [263]: File 1
+                           [264]: File 1
+                           [265]: File 1
+                           [266]: Q147222
+                           [267]: KB975558_WM8
+                           [268]: KB925398_WMP64
+                           [269]: KB2183461-IE8 - Update
+                           [270]: KB2360131-IE8 - Update
+                           [271]: KB2416400-IE8 - Update
+                           [272]: KB2482017-IE8 - Update
+                           [273]: KB2497640-IE8 - Update
+                           [274]: KB2510531-IE8 - Update
+                           [275]: KB2530548-IE8 - Update
+                           [276]: KB2544521-IE8 - Update
+                           [277]: KB2559049-IE8 - Update
+                           [278]: KB2586448-IE8 - Update
+                           [279]: KB2618444-IE8 - Update
+                           [280]: KB2632503-IE8 - Update
+                           [281]: KB2647516-IE8 - Update
+                           [282]: KB267
+Network Card(s):           1 NIC(s) Installed.
+                           [01]: Intel(R) PRO/1000 MT Network Connection
+                                 Connection Name: TRX_PROD
+                                 DHCP Enabled:    No
+                                 IP address(es)
+                                 [01]: 10.69.36.73

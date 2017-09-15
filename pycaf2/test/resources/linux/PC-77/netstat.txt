@@ -1,0 +1,458 @@
+Connexions Internet actives (serveurs et établies)
+Proto Recv-Q Send-Q Adresse locale          Adresse distante        Etat        PID/Program name
+tcp        0      0 0.0.0.0:48468           0.0.0.0:*               LISTEN      487/rpc.statd   
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      514/sshd        
+tcp        0      0 127.0.0.1:631           0.0.0.0:*               LISTEN      8955/cupsd      
+tcp        0      0 127.0.0.1:25            0.0.0.0:*               LISTEN      844/exim4       
+tcp        0      0 127.0.0.1:5037          0.0.0.0:*               LISTEN      5953/adb        
+tcp        0      0 0.0.0.0:111             0.0.0.0:*               LISTEN      477/rpcbind     
+tcp6       0      0 :::22                   :::*                    LISTEN      514/sshd        
+tcp6       0      0 ::1:631                 :::*                    LISTEN      8955/cupsd      
+tcp6       0      0 ::1:25                  :::*                    LISTEN      844/exim4       
+tcp6       0      0 :::49082                :::*                    LISTEN      487/rpc.statd   
+tcp6       0      0 :::111                  :::*                    LISTEN      477/rpcbind     
+tcp6       1      0 ::1:35109               ::1:631                 CLOSE_WAIT  541/cups-browsed
+udp        0      0 0.0.0.0:631             0.0.0.0:*                           541/cups-browsed
+udp        0      0 0.0.0.0:652             0.0.0.0:*                           477/rpcbind     
+udp        0      0 127.0.0.1:663           0.0.0.0:*                           487/rpc.statd   
+udp        0      0 0.0.0.0:5353            0.0.0.0:*                           506/avahi-daemon: r
+udp        0      0 0.0.0.0:42221           0.0.0.0:*                           506/avahi-daemon: r
+udp        0      0 0.0.0.0:1900            0.0.0.0:*                           573/minissdpd   
+udp        0      0 0.0.0.0:22994           0.0.0.0:*                           833/dhclient    
+udp        0      0 0.0.0.0:68              0.0.0.0:*                           833/dhclient    
+udp        0      0 0.0.0.0:111             0.0.0.0:*                           477/rpcbind     
+udp        0      0 0.0.0.0:37040           0.0.0.0:*                           487/rpc.statd   
+udp6       0      0 :::652                  :::*                                477/rpcbind     
+udp6       0      0 :::54159                :::*                                487/rpc.statd   
+udp6       0      0 :::5353                 :::*                                506/avahi-daemon: r
+udp6       0      0 :::43357                :::*                                506/avahi-daemon: r
+udp6       0      0 :::111                  :::*                                477/rpcbind     
+udp6       0      0 :::57618                :::*                                833/dhclient    
+raw6       0      0 :::58                   :::*                    7           516/NetworkManager
+Sockets du domaine UNIX actives(serveurs et établies)
+Proto RefCnt Flags       Type       State         I-Node   PID/Program name    Chemin
+unix  2      [ ACC ]     STREAM     LISTENING     10752    477/rpcbind         /run/rpcbind.sock
+unix  2      [ ACC ]     STREAM     LISTENING     15619    845/docker-containe /var/run/docker/libcontainerd/docker-containerd.sock
+unix  2      [ ACC ]     STREAM     LISTENING     13573    1/init              /run/acpid.socket
+unix  2      [ ACC ]     STREAM     LISTENING     13904    582/X               /tmp/.X11-unix/X0
+unix  2      [ ACC ]     STREAM     LISTENING     54388    5643/ssh-agent      /tmp/ssh-uOYuLgec6vOY/agent.5620
+unix  2      [ ACC ]     STREAM     LISTENING     54423    5620/x-session-mana /tmp/.ICE-unix/5620
+unix  2      [ ACC ]     STREAM     LISTENING     54422    5620/x-session-mana @/tmp/.ICE-unix/5620
+unix  2      [ ACC ]     STREAM     LISTENING     13903    582/X               @/tmp/.X11-unix/X0
+unix  2      [ ACC ]     STREAM     LISTENING     13865    573/minissdpd       /var/run/minissdpd.sock
+unix  2      [ ACC ]     STREAM     LISTENING     13892    516/NetworkManager  /var/run/NetworkManager/private
+unix  2      [ ACC ]     STREAM     LISTENING     13897    516/NetworkManager  /var/run/NetworkManager/private-dhcp
+unix  2      [ ]         DGRAM                    7525     1/init              /run/systemd/notify
+unix  2      [ ACC ]     STREAM     LISTENING     7527     1/init              /run/systemd/private
+unix  2      [ ]         DGRAM                    11117    588/wpa_supplicant  /run/wpa_supplicant/wlan0
+unix  2      [ ]         DGRAM                    7540     1/init              /run/systemd/shutdownd
+unix  2      [ ACC ]     STREAM     LISTENING     14294    1157/dbus-daemon    @/tmp/dbus-xW5j5AA1FS
+unix  19     [ ]         DGRAM                    7545     1/init              /run/systemd/journal/dev-log
+unix  2      [ ACC ]     SEQPACKET  LISTENING     7549     1/init              /run/udev/control
+unix  2      [ ACC ]     STREAM     LISTENING     7552     1/init              /run/systemd/journal/stdout
+unix  8      [ ]         DGRAM                    7554     1/init              /run/systemd/journal/socket
+unix  2      [ ACC ]     STREAM     LISTENING     52876    5618/gnome-keyring- /run/user/1001/keyring/control
+unix  2      [ ]         DGRAM                    51898    5613/systemd        /run/user/1001/systemd/notify
+unix  2      [ ACC ]     STREAM     LISTENING     53589    5653/dbus-daemon    @/tmp/dbus-n6dww7lekG
+unix  2      [ ACC ]     STREAM     LISTENING     51900    5613/systemd        /run/user/1001/systemd/private
+unix  2      [ ACC ]     STREAM     LISTENING     53577    5647/dbus-daemon    @/tmp/dbus-D6840FcAGi
+unix  2      [ ]         DGRAM                    14018    879/systemd         /run/user/117/systemd/notify
+unix  2      [ ACC ]     STREAM     LISTENING     14020    879/systemd         /run/user/117/systemd/private
+unix  2      [ ACC ]     STREAM     LISTENING     18502    1183/dbus-daemon    @/tmp/dbus-SBDxz3ZN9X
+unix  2      [ ACC ]     STREAM     LISTENING     52948    5618/gnome-keyring- /run/user/1001/keyring/pkcs11
+unix  2      [ ACC ]     STREAM     LISTENING     53720    5679/pulseaudio     /run/user/1001/pulse/native
+unix  2      [ ACC ]     STREAM     LISTENING     52953    5618/gnome-keyring- /run/user/1001/keyring/ssh
+unix  2      [ ACC ]     STREAM     LISTENING     52955    5618/gnome-keyring- /run/user/1001/keyring/gpg
+unix  2      [ ACC ]     STREAM     LISTENING     14556    1/init              /var/run/avahi-daemon/socket
+unix  2      [ ACC ]     STREAM     LISTENING     14559    1/init              /var/run/docker.sock
+unix  2      [ ]         DGRAM                    8671     1/init              /run/systemd/journal/syslog
+unix  2      [ ACC ]     STREAM     LISTENING     14561    1/init              /var/run/dbus/system_bus_socket
+unix  2      [ ACC ]     STREAM     LISTENING     14564    1/init              /var/run/cups/cups.sock
+unix  2      [ ACC ]     STREAM     LISTENING     16629    544/dockerd         /run/docker/libnetwork/c95ccc78fee9139b172e73b2514d57f1d86a853dbc1cb2bf22d1c59f1c174814.sock
+unix  3      [ ]         STREAM     CONNECTE      53097    5653/dbus-daemon    @/tmp/dbus-n6dww7lekG
+unix  3      [ ]         STREAM     CONNECTE      53732    582/X               @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTE      53194    198/systemd-journal /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTE      18512    1157/dbus-daemon    @/tmp/dbus-xW5j5AA1FS
+unix  2      [ ]         DGRAM                    11072    516/NetworkManager  
+unix  3      [ ]         STREAM     CONNECTE      60028    5953/adb            
+unix  3      [ ]         STREAM     CONNECTE      55308    5803/zeitgeist-daem 
+unix  3      [ ]         STREAM     CONNECTE      16688    1159/at-spi-bus-lau 
+unix  3      [ ]         STREAM     CONNECTE      58294    198/systemd-journal /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTE      18510    1186/at-spi2-regist 
+unix  3      [ ]         STREAM     CONNECTE      16742    1159/at-spi-bus-lau 
+unix  3      [ ]         STREAM     CONNECTE      11101    198/systemd-journal /run/systemd/journal/stdout
+unix  2      [ ]         DGRAM                    52084    5760/colord         
+unix  3      [ ]         STREAM     CONNECTE      54800    5775/cinnamon       
+unix  3      [ ]         STREAM     CONNECTE      54664    5647/dbus-daemon    @/tmp/dbus-D6840FcAGi
+unix  3      [ ]         STREAM     CONNECTE      53685    198/systemd-journal /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTE      11070    520/dbus-daemon     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTE      53811    5783/nm-applet      
+unix  3      [ ]         STREAM     CONNECTE      54585    5647/dbus-daemon    @/tmp/dbus-D6840FcAGi
+unix  2      [ ]         DGRAM                    7595     191/systemd-udevd   
+unix  3      [ ]         STREAM     CONNECTE      59888    5932/gnome-terminal 
+unix  3      [ ]         STREAM     CONNECTE      51997    5707/gvfsd          
+unix  3      [ ]         STREAM     CONNECTE      52108    5780/polkit-gnome-a 
+unix  3      [ ]         STREAM     CONNECTE      54640    198/systemd-journal /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTE      53609    5656/at-spi2-regist 
+unix  3      [ ]         STREAM     CONNECTE      53063    5719/udisksd        
+unix  2      [ ]         DGRAM                    8675     1/init              
+unix  3      [ ]         STREAM     CONNECTE      10835    198/systemd-journal /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTE      53836    520/dbus-daemon     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTE      53236    198/systemd-journal /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTE      53092    5762/csd-printer    
+unix  3      [ ]         STREAM     CONNECTE      53119    5775/cinnamon       
+unix  3      [ ]         STREAM     CONNECTE      52857    520/dbus-daemon     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTE      61724    5932/gnome-terminal 
+unix  3      [ ]         STREAM     CONNECTE      53830    520/dbus-daemon     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTE      15370    569/polkitd         
+unix  3      [ ]         STREAM     CONNECTE      13110    1/init              
+unix  3      [ ]         STREAM     CONNECTE      15622    544/dockerd         
+unix  3      [ ]         STREAM     CONNECTE      56463    5867/gvfsd-metadata 
+unix  3      [ ]         STREAM     CONNECTE      53796    5781/nemo           
+unix  3      [ ]         STREAM     CONNECTE      53064    5647/dbus-daemon    @/tmp/dbus-D6840FcAGi
+unix  3      [ ]         STREAM     CONNECTE      53695    5683/upowerd        
+unix  3      [ ]         STREAM     CONNECTE      52904    5656/at-spi2-regist 
+unix  3      [ ]         STREAM     CONNECTE      15976    1157/dbus-daemon    
+unix  3      [ ]         STREAM     CONNECTE      53182    5790/gvfsd-trash    
+unix  3      [ ]         STREAM     CONNECTE      54969    5775/cinnamon       
+unix  3      [ ]         STREAM     CONNECTE      53213    5790/gvfsd-trash    @/dbus-vfs-daemon/socket-eTpB5TA1
+unix  3      [ ]         STREAM     CONNECTE      53694    5665/cinnamon-setti 
+unix  3      [ ]         STREAM     CONNECTE      13911    588/wpa_supplicant  
+unix  3      [ ]         STREAM     CONNECTE      53171    5780/polkit-gnome-a 
+unix  3      [ ]         STREAM     CONNECTE      17547    1186/at-spi2-regist 
+unix  3      [ ]         STREAM     CONNECTE      59102    5922/gvfsd-burn     @/dbus-vfs-daemon/socket-9s6Ld6rU
+unix  3      [ ]         STREAM     CONNECTE      53771    5762/csd-printer    
+unix  3      [ ]         STREAM     CONNECTE      52016    198/systemd-journal /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTE      54468    5665/cinnamon-setti 
+unix  3      [ ]         STREAM     CONNECTE      53590    5653/dbus-daemon    
+unix  3      [ ]         DGRAM                    7604     191/systemd-udevd   
+unix  3      [ ]         STREAM     CONNECTE      57945    198/systemd-journal /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTE      54718    5760/colord         
+unix  3      [ ]         STREAM     CONNECTE      56460    198/systemd-journal /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTE      14856    506/avahi-daemon: r 
+unix  3      [ ]         STREAM     CONNECTE      13634    198/systemd-journal /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTE      56459    198/systemd-journal /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTE      53816    5647/dbus-daemon    @/tmp/dbus-D6840FcAGi
+unix  3      [ ]         STREAM     CONNECTE      52056    5755/gvfs-mtp-volum 
+unix  3      [ ]         STREAM     CONNECTE      14662    513/ModemManager    
+unix  3      [ ]         STREAM     CONNECTE      59613    5911/nautilus       
+unix  3      [ ]         STREAM     CONNECTE      55687    5775/cinnamon       
+unix  3      [ ]         STREAM     CONNECTE      55315    198/systemd-journal /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTE      60608    5911/nautilus       
+unix  3      [ ]         STREAM     CONNECTE      53170    5780/polkit-gnome-a 
+unix  3      [ ]         STREAM     CONNECTE      53237    198/systemd-journal /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTE      58982    5653/dbus-daemon    @/tmp/dbus-n6dww7lekG
+unix  3      [ ]         STREAM     CONNECTE      10942    198/systemd-journal /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTE      54584    198/systemd-journal /run/systemd/journal/stdout
+unix  2      [ ]         DGRAM                    13959    833/dhclient        
+unix  3      [ ]         STREAM     CONNECTE      11067    520/dbus-daemon     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTE      55314    198/systemd-journal /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTE      53768    5760/colord         
+unix  3      [ ]         STREAM     CONNECTE      52887    5646/dbus-launch    
+unix  3      [ ]         STREAM     CONNECTE      10936    513/ModemManager    
+unix  3      [ ]         DGRAM                    52967    1/init              
+unix  3      [ ]         STREAM     CONNECTE      52133    5653/dbus-daemon    @/tmp/dbus-n6dww7lekG
+unix  2      [ ]         DGRAM                    14868    513/ModemManager    
+unix  2      [ ]         DGRAM                    14836    519/systemd-logind  
+unix  3      [ ]         STREAM     CONNECTE      54416    198/systemd-journal /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTE      53705    5717/gvfs-udisks2-v 
+unix  3      [ ]         STREAM     CONNECTE      54390    198/systemd-journal /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTE      53824    520/dbus-daemon     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTE      58312    582/X               @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTE      51932    5618/gnome-keyring- 
+unix  3      [ ]         STREAM     CONNECTE      53570    582/X               @/tmp/.X11-unix/X0
+unix  2      [ ]         DGRAM                    13552    487/rpc.statd       
+unix  3      [ ]         STREAM     CONNECTE      17528    1157/dbus-daemon    @/tmp/dbus-xW5j5AA1FS
+unix  3      [ ]         STREAM     CONNECTE      52897    5620/x-session-mana 
+unix  3      [ ]         STREAM     CONNECTE      58354    5935/gnome-pty-help 
+unix  3      [ ]         STREAM     CONNECTE      58983    5647/dbus-daemon    @/tmp/dbus-D6840FcAGi
+unix  3      [ ]         STREAM     CONNECTE      14878    520/dbus-daemon     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTE      53841    5647/dbus-daemon    @/tmp/dbus-D6840FcAGi
+unix  3      [ ]         STREAM     CONNECTE      52215    5783/nm-applet      
+unix  3      [ ]         STREAM     CONNECTE      53050    5707/gvfsd          
+unix  3      [ ]         STREAM     CONNECTE      52893    5647/dbus-daemon    
+unix  3      [ ]         STREAM     CONNECTE      15283    588/wpa_supplicant  
+unix  2      [ ]         DGRAM                    51886    5613/systemd        
+unix  3      [ ]         STREAM     CONNECTE      15980    198/systemd-journal /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTE      15997    198/systemd-journal /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTE      57329    5880/python         
+unix  3      [ ]         STREAM     CONNECTE      52050    5647/dbus-daemon    @/tmp/dbus-D6840FcAGi
+unix  3      [ ]         STREAM     CONNECTE      54583    198/systemd-journal /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTE      13851    198/systemd-journal /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTE      52090    5759/python         
+unix  3      [ ]         STREAM     CONNECTE      52085    5665/cinnamon-setti 
+unix  3      [ ]         STREAM     CONNECTE      62524    5932/gnome-terminal 
+unix  3      [ ]         STREAM     CONNECTE      54655    582/X               @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTE      14274    582/X               @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTE      1121472  198/systemd-journal /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTE      1099566  8955/cupsd          
+unix  3      [ ]         STREAM     CONNECTE      53225    5811/gconfd-2       
+unix  3      [ ]         STREAM     CONNECTE      52019    5647/dbus-daemon    @/tmp/dbus-D6840FcAGi
+unix  3      [ ]         DGRAM                    52966    1/init              
+unix  3      [ ]         STREAM     CONNECTE      57930    5647/dbus-daemon    @/tmp/dbus-D6840FcAGi
+unix  3      [ ]         STREAM     CONNECTE      53211    5783/nm-applet      
+unix  3      [ ]         STREAM     CONNECTE      54807    5647/dbus-daemon    @/tmp/dbus-D6840FcAGi
+unix  3      [ ]         STREAM     CONNECTE      53769    5647/dbus-daemon    @/tmp/dbus-D6840FcAGi
+unix  3      [ ]         STREAM     CONNECTE      62567    5647/dbus-daemon    @/tmp/dbus-D6840FcAGi
+unix  2      [ ]         STREAM     CONNECTE      53764    5665/cinnamon-setti 
+unix  3      [ ]         STREAM     CONNECTE      52023    5731/goa-daemon     
+unix  3      [ ]         STREAM     CONNECTE      52906    5647/dbus-daemon    @/tmp/dbus-D6840FcAGi
+unix  3      [ ]         STREAM     CONNECTE      52015    520/dbus-daemon     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTE      10885    516/NetworkManager  
+unix  3      [ ]         STREAM     CONNECTE      15398    520/dbus-daemon     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTE      53823    5647/dbus-daemon    @/tmp/dbus-D6840FcAGi
+unix  3      [ ]         STREAM     CONNECTE      15230    520/dbus-daemon     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTE      13679    520/dbus-daemon     
+unix  3      [ ]         STREAM     CONNECTE      15384    566/lightdm         
+unix  3      [ ]         STREAM     CONNECTE      57138    5875/cinnamon-scree 
+unix  3      [ ]         STREAM     CONNECTE      53791    582/X               @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTE      54557    520/dbus-daemon     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTE      55331    5816/dconf-service  
+unix  3      [ ]         STREAM     CONNECTE      13978    566/lightdm         
+unix  3      [ ]         STREAM     CONNECTE      53243    5821/zeitgeist-fts  
+unix  3      [ ]         STREAM     CONNECTE      53743    5750/gvfs-afc-volum 
+unix  3      [ ]         STREAM     CONNECTE      53080    198/systemd-journal /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTE      52989    520/dbus-daemon     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTE      15977    1157/dbus-daemon    
+unix  3      [ ]         STREAM     CONNECTE      53817    5781/nemo           
+unix  3      [ ]         STREAM     CONNECTE      53834    5816/dconf-service  
+unix  3      [ ]         STREAM     CONNECTE      51914    5647/dbus-daemon    @/tmp/dbus-D6840FcAGi
+unix  3      [ ]         STREAM     CONNECTE      14857    525/avahi-daemon: c 
+unix  3      [ ]         STREAM     CONNECTE      1116816  8955/cupsd          
+unix  3      [ ]         STREAM     CONNECTE      55182    5653/dbus-daemon    @/tmp/dbus-n6dww7lekG
+unix  3      [ ]         STREAM     CONNECTE      53752    5647/dbus-daemon    @/tmp/dbus-D6840FcAGi
+unix  3      [ ]         STREAM     CONNECTE      53792    520/dbus-daemon     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTE      52961    520/dbus-daemon     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTE      53610    5647/dbus-daemon    @/tmp/dbus-D6840FcAGi
+unix  3      [ ]         STREAM     CONNECTE      53191    5647/dbus-daemon    @/tmp/dbus-D6840FcAGi
+unix  3      [ ]         STREAM     CONNECTE      52086    520/dbus-daemon     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTE      53073    5728/gvfs-goa-volum 
+unix  3      [ ]         STREAM     CONNECTE      53672    582/X               @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTE      53098    5647/dbus-daemon    @/tmp/dbus-D6840FcAGi
+unix  3      [ ]         STREAM     CONNECTE      63679    5775/cinnamon       
+unix  3      [ ]         STREAM     CONNECTE      57928    5875/cinnamon-scree 
+unix  3      [ ]         STREAM     CONNECTE      54418    5653/dbus-daemon    @/tmp/dbus-n6dww7lekG
+unix  3      [ ]         STREAM     CONNECTE      54389    198/systemd-journal /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTE      15290    520/dbus-daemon     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTE      15399    516/NetworkManager  
+unix  2      [ ]         STREAM     CONNECTE      58985    5911/nautilus       
+unix  3      [ ]         STREAM     CONNECTE      58843    5911/nautilus       
+unix  3      [ ]         STREAM     CONNECTE      53169    5653/dbus-daemon    @/tmp/dbus-n6dww7lekG
+unix  3      [ ]         STREAM     CONNECTE      53795    5781/nemo           
+unix  3      [ ]         STREAM     CONNECTE      12873    501/rpc.idmapd      
+unix  2      [ ]         STREAM     CONNECTE      59689    5790/gvfsd-trash    @/dbus-vfs-daemon/socket-YzWyb5rq
+unix  3      [ ]         STREAM     CONNECTE      18504    1183/dbus-daemon    
+unix  3      [ ]         STREAM     CONNECTE      14842    519/systemd-logind  
+unix  3      [ ]         STREAM     CONNECTE      51920    5649/at-spi-bus-lau 
+unix  3      [ ]         STREAM     CONNECTE      60609    582/X               @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTE      53786    5620/x-session-mana @/tmp/.ICE-unix/5620
+unix  2      [ ]         DGRAM                    54355    5609/lightdm        
+unix  3      [ ]         STREAM     CONNECTE      16417    845/docker-containe /var/run/docker/libcontainerd/docker-containerd.sock
+unix  3      [ ]         STREAM     CONNECTE      15017    541/cups-browsed    
+unix  3      [ ]         STREAM     CONNECTE      53735    5647/dbus-daemon    @/tmp/dbus-D6840FcAGi
+unix  3      [ ]         STREAM     CONNECTE      14872    520/dbus-daemon     
+unix  3      [ ]         STREAM     CONNECTE      52909    5618/gnome-keyring- 
+unix  3      [ ]         STREAM     CONNECTE      11190    582/X               @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTE      53242    5821/zeitgeist-fts  
+unix  3      [ ]         STREAM     CONNECTE      53835    5816/dconf-service  
+unix  3      [ ]         STREAM     CONNECTE      54666    198/systemd-journal /run/systemd/journal/stdout
+unix  2      [ ]         DGRAM                    53554    5614/(sd-pam)       
+unix  3      [ ]         STREAM     CONNECTE      10837    198/systemd-journal /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTE      53763    5679/pulseaudio     /run/user/1001/pulse/native
+unix  3      [ ]         STREAM     CONNECTE      54591    5717/gvfs-udisks2-v 
+unix  3      [ ]         STREAM     CONNECTE      53591    5653/dbus-daemon    
+unix  3      [ ]         STREAM     CONNECTE      53750    5755/gvfs-mtp-volum 
+unix  3      [ ]         STREAM     CONNECTE      54417    198/systemd-journal /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTE      12961    504/accounts-daemon 
+unix  3      [ ]         STREAM     CONNECTE      13886    520/dbus-daemon     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTE      51993    520/dbus-daemon     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTE      54858    5647/dbus-daemon    @/tmp/dbus-D6840FcAGi
+unix  3      [ ]         STREAM     CONNECTE      54657    5731/goa-daemon     
+unix  3      [ ]         STREAM     CONNECTE      58353    5932/gnome-terminal 
+unix  3      [ ]         STREAM     CONNECTE      18509    1186/at-spi2-regist 
+unix  3      [ ]         STREAM     CONNECTE      16687    1159/at-spi-bus-lau 
+unix  3      [ ]         STREAM     CONNECTE      53193    198/systemd-journal /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTE      53812    5783/nm-applet      
+unix  3      [ ]         STREAM     CONNECTE      55333    5821/zeitgeist-fts  
+unix  3      [ ]         STREAM     CONNECTE      58293    198/systemd-journal /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTE      54799    5775/cinnamon       
+unix  3      [ ]         STREAM     CONNECTE      54589    198/systemd-journal /run/systemd/journal/stdout
+unix  2      [ ]         DGRAM                    15165    542/acpid           
+unix  3      [ ]         STREAM     CONNECTE      55690    520/dbus-daemon     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTE      56326    5821/zeitgeist-fts  
+unix  2      [ ]         DGRAM                    54802    569/polkitd         
+unix  3      [ ]         STREAM     CONNECTE      60627    5790/gvfsd-trash    @/dbus-vfs-daemon/socket-FniIOVcT
+unix  3      [ ]         STREAM     CONNECTE      53118    5775/cinnamon       
+unix  3      [ ]         STREAM     CONNECTE      1117343  520/dbus-daemon     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTE      55313    520/dbus-daemon     /var/run/dbus/system_bus_socket
+unix  2      [ ]         DGRAM                    53709    5719/udisksd        
+unix  3      [ ]         STREAM     CONNECTE      13047    506/avahi-daemon: r 
+unix  3      [ ]         STREAM     CONNECTE      53176    5781/nemo           
+unix  3      [ ]         STREAM     CONNECTE      11054    566/lightdm         
+unix  3      [ ]         STREAM     CONNECTE      59100    5647/dbus-daemon    @/tmp/dbus-D6840FcAGi
+unix  3      [ ]         STREAM     CONNECTE      54663    5746/gvfs-gphoto2-v 
+unix  3      [ ]         STREAM     CONNECTE      54641    198/systemd-journal /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTE      51924    582/X               @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTE      53693    5647/dbus-daemon    @/tmp/dbus-D6840FcAGi
+unix  3      [ ]         STREAM     CONNECTE      51918    5649/at-spi-bus-lau 
+unix  3      [ ]         STREAM     CONNECTE      17548    582/X               @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTE      53731    5679/pulseaudio     
+unix  3      [ ]         STREAM     CONNECTE      53777    5759/python         
+unix  3      [ ]         STREAM     CONNECTE      53742    5750/gvfs-afc-volum 
+unix  3      [ ]         STREAM     CONNECTE      57139    5875/cinnamon-scree 
+unix  3      [ ]         STREAM     CONNECTE      54833    5647/dbus-daemon    @/tmp/dbus-D6840FcAGi
+unix  2      [ ]         STREAM     CONNECTE      58019    5911/nautilus       
+unix  3      [ ]         STREAM     CONNECTE      58767    5875/cinnamon-scree 
+unix  3      [ ]         STREAM     CONNECTE      52895    5646/dbus-launch    
+unix  3      [ ]         STREAM     CONNECTE      13123    504/accounts-daemon 
+unix  3      [ ]         STREAM     CONNECTE      13633    198/systemd-journal /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTE      52209    5791/zeitgeist-data 
+unix  3      [ ]         STREAM     CONNECTE      54801    5780/polkit-gnome-a 
+unix  3      [ ]         STREAM     CONNECTE      52055    5750/gvfs-afc-volum 
+unix  3      [ ]         STREAM     CONNECTE      54590    198/systemd-journal /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTE      59975    5679/pulseaudio     /run/user/1001/pulse/native
+unix  3      [ ]         STREAM     CONNECTE      57672    5867/gvfsd-metadata 
+unix  3      [ ]         STREAM     CONNECTE      52213    5803/zeitgeist-daem 
+unix  3      [ ]         STREAM     CONNECTE      54662    5746/gvfs-gphoto2-v 
+unix  3      [ ]         STREAM     CONNECTE      57140    5875/cinnamon-scree 
+unix  3      [ ]         STREAM     CONNECTE      52017    198/systemd-journal /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTE      51992    5683/upowerd        
+unix  3      [ ]         STREAM     CONNECTE      54469    5665/cinnamon-setti 
+unix  3      [ ]         STREAM     CONNECTE      53498    5609/lightdm        
+unix  3      [ ]         STREAM     CONNECTE      16447    198/systemd-journal /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTE      59614    5911/nautilus       
+unix  3      [ ]         STREAM     CONNECTE      52054    5746/gvfs-gphoto2-v 
+unix  3      [ ]         STREAM     CONNECTE      51935    5679/pulseaudio     
+unix  3      [ ]         STREAM     CONNECTE      15978    582/X               @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTE      53185    5790/gvfsd-trash    @/dbus-vfs-daemon/socket-h6sxBYNR
+unix  3      [ ]         STREAM     CONNECTE      57673    5867/gvfsd-metadata 
+unix  3      [ ]         STREAM     CONNECTE      51928    5653/dbus-daemon    @/tmp/dbus-n6dww7lekG
+unix  3      [ ]         STREAM     CONNECTE      14861    506/avahi-daemon: r 
+unix  3      [ ]         STREAM     CONNECTE      58764    582/X               @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTE      53180    5783/nm-applet      
+unix  3      [ ]         STREAM     CONNECTE      53084    198/systemd-journal /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTE      54424    5620/x-session-mana 
+unix  3      [ ]         STREAM     CONNECTE      52905    5656/at-spi2-regist 
+unix  3      [ ]         STREAM     CONNECTE      53593    5653/dbus-daemon    @/tmp/dbus-n6dww7lekG
+unix  3      [ ]         STREAM     CONNECTE      60920    5911/nautilus       
+unix  3      [ ]         STREAM     CONNECTE      54392    5647/dbus-daemon    @/tmp/dbus-D6840FcAGi
+unix  3      [ ]         STREAM     CONNECTE      53547    198/systemd-journal /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTE      54420    5620/x-session-mana 
+unix  3      [ ]         STREAM     CONNECTE      53124    5775/cinnamon       
+unix  3      [ ]         STREAM     CONNECTE      14873    520/dbus-daemon     
+unix  3      [ ]         STREAM     CONNECTE      14835    519/systemd-logind  
+unix  3      [ ]         STREAM     CONNECTE      54356    5609/lightdm        
+unix  2      [ ]         DGRAM                    14005    894/(sd-pam)        
+unix  3      [ ]         STREAM     CONNECTE      53126    5775/cinnamon       
+unix  3      [ ]         STREAM     CONNECTE      60590    5911/nautilus       
+unix  3      [ ]         STREAM     CONNECTE      51929    5647/dbus-daemon    @/tmp/dbus-D6840FcAGi
+unix  3      [ ]         STREAM     CONNECTE      13290    198/systemd-journal /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTE      54658    5731/goa-daemon     
+unix  3      [ ]         STREAM     CONNECTE      13894    516/NetworkManager  
+unix  3      [ ]         STREAM     CONNECTE      54823    582/X               @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTE      53751    5755/gvfs-mtp-volum 
+unix  2      [ ]         DGRAM                    15610    544/dockerd         
+unix  3      [ ]         STREAM     CONNECTE      14875    520/dbus-daemon     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTE      55278    5880/python         
+unix  3      [ ]         STREAM     CONNECTE      53578    582/X               @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTE      52214    5803/zeitgeist-daem 
+unix  3      [ ]         STREAM     CONNECTE      52894    5647/dbus-daemon    
+unix  3      [ ]         STREAM     CONNECTE      15981    198/systemd-journal /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTE      62525    5932/gnome-terminal 
+unix  3      [ ]         STREAM     CONNECTE      55276    520/dbus-daemon     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTE      53778    582/X               @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTE      52091    5759/python         
+unix  3      [ ]         STREAM     CONNECTE      52053    5739/xprop          
+unix  2      [ ]         STREAM     CONNECTE      1548552  10212/sudo          
+unix  3      [ ]         STREAM     CONNECTE      53781    5647/dbus-daemon    @/tmp/dbus-D6840FcAGi
+unix  3      [ ]         STREAM     CONNECTE      53598    5656/at-spi2-regist 
+unix  3      [ ]         STREAM     CONNECTE      52165    5653/dbus-daemon    @/tmp/dbus-n6dww7lekG
+unix  3      [ ]         STREAM     CONNECTE      53214    5647/dbus-daemon    @/tmp/dbus-D6840FcAGi
+unix  3      [ ]         STREAM     CONNECTE      58313    5932/gnome-terminal 
+unix  3      [ ]         STREAM     CONNECTE      52992    5683/upowerd        
+unix  3      [ ]         STREAM     CONNECTE      13635    198/systemd-journal /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTE      53706    5717/gvfs-udisks2-v 
+unix  3      [ ]         STREAM     CONNECTE      53707    520/dbus-daemon     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTE      53597    5656/at-spi2-regist 
+unix  3      [ ]         STREAM     CONNECTE      18503    1183/dbus-daemon    
+unix  2      [ ]         STREAM     CONNECTE      59428    5781/nemo           
+unix  3      [ ]         STREAM     CONNECTE      53072    5728/gvfs-goa-volum 
+unix  3      [ ]         STREAM     CONNECTE      53546    5613/systemd        
+unix  2      [ ]         DGRAM                    14007    879/systemd         
+unix  3      [ ]         STREAM     CONNECTE      10930    198/systemd-journal /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTE      54836    5803/zeitgeist-daem 
+unix  3      [ ]         STREAM     CONNECTE      53716    5717/gvfs-udisks2-v 
+unix  3      [ ]         STREAM     CONNECTE      14619    512/cron            
+unix  2      [ ]         DGRAM                    13907    588/wpa_supplicant  
+unix  3      [ ]         STREAM     CONNECTE      14874    520/dbus-daemon     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTE      57678    5647/dbus-daemon    @/tmp/dbus-D6840FcAGi
+unix  3      [ ]         STREAM     CONNECTE      53079    5620/x-session-mana @/tmp/.ICE-unix/5620
+unix  3      [ ]         STREAM     CONNECTE      56365    5775/cinnamon       
+unix  3      [ ]         STREAM     CONNECTE      54791    582/X               @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTE      58142    5922/gvfsd-burn     
+unix  3      [ ]         STREAM     CONNECTE      53784    582/X               @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTE      53081    198/systemd-journal /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTE      52024    5731/goa-daemon     
+unix  3      [ ]         STREAM     CONNECTE      17482    1073/dbus-launch    
+unix  3      [ ]         STREAM     CONNECTE      62566    5653/dbus-daemon    @/tmp/dbus-n6dww7lekG
+unix  3      [ ]         STREAM     CONNECTE      53228    5783/nm-applet      
+unix  3      [ ]         STREAM     CONNECTE      52901    5620/x-session-mana 
+unix  3      [ ]         STREAM     CONNECTE      52982    5679/pulseaudio     
+unix  3      [ ]         STREAM     CONNECTE      57946    198/systemd-journal /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTE      53862    5679/pulseaudio     /run/user/1001/pulse/native
+unix  3      [ ]         STREAM     CONNECTE      53744    5647/dbus-daemon    @/tmp/dbus-D6840FcAGi
+unix  3      [ ]         STREAM     CONNECTE      14877    520/dbus-daemon     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTE      13632    198/systemd-journal /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTE      60029    5953/adb            
+unix  3      [ ]         STREAM     CONNECTE      52900    5620/x-session-mana 
+unix  3      [ ]         STREAM     CONNECTE      53856    520/dbus-daemon     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTE      53175    582/X               @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTE      53093    520/dbus-daemon     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTE      53083    198/systemd-journal /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTE      17546    1186/at-spi2-regist 
+unix  3      [ ]         STREAM     CONNECTE      52109    5647/dbus-daemon    @/tmp/dbus-D6840FcAGi
+unix  3      [ ]         STREAM     CONNECTE      53676    5647/dbus-daemon    @/tmp/dbus-D6840FcAGi
+unix  3      [ ]         STREAM     CONNECTE      18511    1183/dbus-daemon    @/tmp/dbus-SBDxz3ZN9X
+unix  3      [ ]         STREAM     CONNECTE      55312    5811/gconfd-2       
+unix  3      [ ]         STREAM     CONNECTE      58842    5911/nautilus       
+unix  3      [ ]         STREAM     CONNECTE      55183    520/dbus-daemon     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTE      54831    5781/nemo           
+unix  3      [ ]         STREAM     CONNECTE      53755    198/systemd-journal /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTE      54467    5665/cinnamon-setti 
+unix  3      [ ]         DGRAM                    7603     191/systemd-udevd   
+unix  3      [ ]         STREAM     CONNECTE      54419    582/X               @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTE      12872    501/rpc.idmapd      
+unix  3      [ ]         STREAM     CONNECTE      57929    5647/dbus-daemon    @/tmp/dbus-D6840FcAGi
+unix  3      [ ]         STREAM     CONNECTE      53723    5679/pulseaudio     
+unix  3      [ ]         STREAM     CONNECTE      53074    5728/gvfs-goa-volum 
+unix  3      [ ]         STREAM     CONNECTE      54558    198/systemd-journal /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTE      53673    5647/dbus-daemon    @/tmp/dbus-D6840FcAGi
+unix  3      [ ]         STREAM     CONNECTE      11243    879/systemd         
+unix  3      [ ]         STREAM     CONNECTE      58987    5790/gvfsd-trash    @/dbus-vfs-daemon/socket-fwrBmPbt
+unix  3      [ ]         STREAM     CONNECTE      16682    1073/dbus-launch    
+unix  3      [ ]         STREAM     CONNECTE      60626    5911/nautilus       
+unix  3      [ ]         STREAM     CONNECTE      53813    5647/dbus-daemon    @/tmp/dbus-D6840FcAGi
+unix  2      [ ]         DGRAM                    14853    506/avahi-daemon: r 
+unix  3      [ ]         STREAM     CONNECTE      14705    514/sshd            
+unix  2      [ ]         DGRAM                    14880    520/dbus-daemon     
+unix  3      [ ]         STREAM     CONNECTE      54665    198/systemd-journal /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTE      11079    541/cups-browsed    
+unix  3      [ ]         STREAM     CONNECTE      57330    5647/dbus-daemon    @/tmp/dbus-D6840FcAGi
+unix  3      [ ]         STREAM     CONNECTE      58988    520/dbus-daemon     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTE      54526    5680/rtkit-daemon   
+unix  2      [ ]         DGRAM                    13864    573/minissdpd       
+unix  3      [ ]         STREAM     CONNECTE      56327    5840/cat            
+unix  3      [ ]         STREAM     CONNECTE      51919    5649/at-spi-bus-lau 
+unix  3      [ ]         STREAM     CONNECTE      15998    198/systemd-journal /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTE      51998    5707/gvfsd          
+unix  3      [ ]         STREAM     CONNECTE      51925    520/dbus-daemon     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTE      10929    198/systemd-journal /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTE      51876    520/dbus-daemon     /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTE      17549    1186/at-spi2-regist 
+unix  3      [ ]         STREAM     CONNECTE      14876    520/dbus-daemon     /var/run/dbus/system_bus_socket
+unix  2      [ ]         STREAM     CONNECTE      57944    5665/cinnamon-setti 
+unix  2      [ ]         DGRAM                    1548555  10212/sudo          
+unix  3      [ ]         STREAM     CONNECTE      52106    5679/pulseaudio     /run/user/1001/pulse/native
+unix  3      [ ]         STREAM     CONNECTE      59591    5911/nautilus       
+unix  3      [ ]         STREAM     CONNECTE      52105    5647/dbus-daemon    @/tmp/dbus-D6840FcAGi
+unix  3      [ ]         STREAM     CONNECTE      15061    544/dockerd         
