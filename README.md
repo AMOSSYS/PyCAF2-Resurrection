@@ -260,4 +260,4 @@ Tests' resources are available in directory pycaf2/test/resources/. You can use 
 * run test on a specific module (test_parser in the example): `python3 -m unittest pycaf2/test/modules/linux/generic/test_ssh.py`
 
 ## TODO and BUGS
-See:
+See Github issues.
