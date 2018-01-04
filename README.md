@@ -4,6 +4,9 @@
 
 ### Pip3 and Virtual environment
 ```
+# Git clone
+git clone https://github.com/AMOSSYS/PyCAF2-Resurrection.git
+
 # Install python3 et pip3
 apt-get install python3 python3-pip
 
@@ -11,13 +14,13 @@ apt-get install python3 python3-pip
 pip3 install virtualenvwrapper
 
 # Configure virtualenvwrapper
-mkdir ~/virtualenvs
+mkdir ~/virtualenvs #assuming you don't have any virtual environments yet...
 export WORKON_HOME=~/virtualenvs
-source /etc/bash_completion.d/virtualenvwrapper
+source /etc/bash_completion.d/virtualenvwrapper #if you don't find it, checkout the result of $which virtualenvwrapper.sh
 export PIP_VIRTUALENV_BASE=~/virtualenvs
 
 # Start virtualenv PyCAF2-Resurrection and install PyCAF2-Resurrection requirements
-mkvirtualenv --python=/usr/bin/python3 -a $HOME/PyCAF2-Resurrection -r requirements.txt PyCAF2-Resurrection
+mkvirtualenv --python=/usr/bin/python3 -a PyCAF2-Resurrection -r requirements.txt PyCAF2-Resurrection
 
 # To exit virtualenv: $deactivate
 # To remove virtualenv: $rmvirtualenv PyCAF2
