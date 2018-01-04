@@ -17,7 +17,9 @@ class TestSystemMethods (unittest.TestCase):
     def tearDown(self):
         pass
 
-    def test_windows_system_info(self):
+    # Windows test archives are not available anymore
+    #def test_windows_system_info(self):
+    def old_windows_system_info(self):
         """
         Returned structure data should be:
         "data": {
@@ -113,23 +115,24 @@ class TestSystemMethods (unittest.TestCase):
         self.assertEqual("debian", os_informations["os"])
         self.assertEqual("x64", os_informations["arch"])
 
-        self.logger.info("Testing Windows system recognition...")
-        extractor = Extract()
-        try:
-            server = extractor.load_file(os.path.join("pycaf2", "test", "resources", "windows", "export-windows-server-2008"), False)
-        except ExtractionFail:
-            raise Exception("Extraction Failed.")
+        # Windows extracted archives are no longer available
+        #self.logger.info("Testing Windows system recognition...")
+        #extractor = Extract()
+        #try:
+        #    server = extractor.load_file(os.path.join("pycaf2", "test", "resources", "windows", "export-windows-server-2008"), False)
+        #except ExtractionFail:
+        #    raise Exception("Extraction Failed.")
 
-        try:
-            os_informations = self.system.os_identifier(server)
-            self.logger.info("OS informations: {}".format(os_informations))
-        except Exception as e: #OsIdentifierException:
-            self.logger.error("Error : %s " % e)
-            raise Exception("OS cannot be identified. Use the -o argument to force one.")
+        #try:
+        #    os_informations = self.system.os_identifier(server)
+        #    self.logger.info("OS informations: {}".format(os_informations))
+        #except Exception as e: #OsIdentifierException:
+        #    self.logger.error("Error : %s " % e)
+        #    raise Exception("OS cannot be identified. Use the -o argument to force one.")
 
-        self.assertEqual("windows", os_informations["system_type"])
-        self.assertEqual("6.1.7601 Service Pack 1 Build 7601", os_informations["version"])
-        self.assertEqual("Microsoft Windows Server 2008 R2 Enterprise", os_informations["os"])
-        self.assertEqual("x64", os_informations["arch"])
+        #self.assertEqual("windows", os_informations["system_type"])
+        #self.assertEqual("6.1.7601 Service Pack 1 Build 7601", os_informations["version"])
+        #self.assertEqual("Microsoft Windows Server 2008 R2 Enterprise", os_informations["os"])
+        #self.assertEqual("x64", os_informations["arch"])
 
     # TODO: test_system_centos

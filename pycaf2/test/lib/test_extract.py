@@ -47,8 +47,9 @@ class TestExtractMethods (unittest.TestCase):
         uname_content = server.file_list.get_file_content("uname.txt$")
         self.assertIn("Linux PC-77 3.16.0-4-amd64", uname_content)
 
-
-    def test_windows_archive(self):
+    # Windows test archives are not available anymore
+    #def test_windows_archive(self):
+    def old_windows_archive(self):
         self.logger.info("Testing Windows extract...")
 
         have_to_extract = True
