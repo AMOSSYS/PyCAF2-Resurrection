@@ -12,11 +12,15 @@ function notImplemented(){
       <h1>Welcome to PyCAF2-web</h1>
     </div>
     <div align="center">
+      <p><b>Diclaimer</b>: this is a work in progress to understand how Flask and web can be useful to the PyCAF2 project.</p>
+      <p>Please directly use the pycaf2 module with the command line if you want to run PyCAF2.</p>
+
+
       <a class="btn btn-lg btn-default" role="button" href="{{ url_for('servers.list_servers') }}">
         Browse imported servers
       </a>
       <p/>
-      
+
       <p>
         <a class="btn btn-lg btn-default" role="button" href="{{ url_for('main.run_pycaf') }}">
           Launch PyCAF2 on server extract
