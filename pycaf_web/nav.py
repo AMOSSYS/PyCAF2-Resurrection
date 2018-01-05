@@ -19,7 +19,7 @@ nav.register_element('frontend_top', Navbar(
     View('PyCAF2', 'main.index'),
     Subgroup(
         'Docs',
-        Link('What is PyCAF2', '.readme'),
+        Link('What is PyCAF2', 'static/readme.txt'),
         Separator(),
         Text('Bootstrap'),
         Link('Getting started', 'http://getbootstrap.com/getting-started/'),
