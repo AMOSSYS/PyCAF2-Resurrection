@@ -24,36 +24,6 @@ def run_pycaf():
     # Render
     return render_template('main/pycaf_launcher.html')
 
-@blueprint.route('/import_from_file', methods=['POST'])
-def import_from_file():
-    """
-    Get pickled server from input form, save it in the upload folder and load
-    server.
-    CAREFUL: this function may be dangerous ==> unserialisation baby.
-    """
-    # Import server from file
-    if "pickled_file" not in request.files:
-        return "No pickled_file part in POST data"
-
-    pickled_file = request.files['pickled_file']
-
-    if not pickled_file:
-        return "No selected file"
-    if not pickled_file.filename:
-        return "No selected file"
-
-    filename = secure_filename(pickled_file.filename)
-    file_path = os.path.join (app.config['UPLOAD_FOLDER'], filename)
-    pickled_file.save(file_path)
-    print("File has been uploaded here: {}".format(file_path))
-
-    if not os.path.exists(file_path):
-        return "Path {} does not exist.".format(file_path)
-    print("Path: {}".format(file_path))
-
-    uuid = load_server(file_path)
-    return redirect( url_for('servers.get_server_from_uuid', uuid=uuid) )
-
 
 @blueprint.route('/import_and_run', methods=['POST'])
 def import_and_run():
